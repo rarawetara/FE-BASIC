@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a href="../index.html">TYPE</a>
+            <a href="./selector_combination.html">COMBINATION</a>
+            <a href="./selector_cascad.html">CASCAD</a>
+            <a href="/">PRIORITY</a>
+            <hr>
+        </nav>
+
+    </header>
+    <section>
+        <h1 class="main">PRIORITY </h1>
+        <ul>
+            <li>
+                <p>
+                    при однакових селекторах пріоритет завжди у нижнього
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    #element селектор ID
+
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    div селектор тегу
+                </p>
+            </li>
+            <li>
+                <p>
+                    .text селектор класу
+                </p>
+            </li>
+            <li>
+                <p>
+                    [title] селектор атрибуту
+                </p>
+            </li>
+            <li>
+                <p> * звертается до вього</p>
+            </li>
+            <li>
+                <p> .text.block селектор класу приорітетніший ніж тегу div.text</p>
+            </li>
+            <li>
+                <div class="text">
+                    <p> !importand перебивае будь який преорітет </p>
+                </div>
+
+
+            </li>
+        </ul>
+
+    </section>
+
+</body>
+
+</html>

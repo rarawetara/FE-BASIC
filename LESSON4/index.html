@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LESSON4</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a href="/">TYPE</a>
+            <a href="./pages/selector_combination.html">COMBINATION</a>
+            <a href="./pages/selector_cascad.html">CASCAD</a>
+            <a href="./pages/selector_priority.html ">PRIORITY</a>
+            <hr>
+        </nav>
+
+    </header>
+    <section>
+        <h1 id="title" class="main">
+            SELECTOR TYPE
+        </h1>
+
+        <h2 class="first" data-target="1">PART 1</h2>
+        <ul>
+
+            <li>
+                <p> * запит до усіх html тегів нас сторінці </p>
+            </li>
+            <li>
+                <p class="section"> div запит до усіх вказаних тегів нас сторінці </p>
+            </li>
+            <li>
+                <p> .text запит до усіх тегів з вказаним класом </p>
+            </li>
+            <li>
+                <p> #element запит до тега з класом ID (звернеться лише до одного тега ) </p>
+            </li>
+            <li>
+                <p> [attr] запит до певного атрибуту</p>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2 class="second">PART 2</h2>
+        <ul>
+
+            <li>
+                <p> [attr=value] запит до тегів з певним атрибутом + його значення та умови </p>
+            </li>
+            <li>
+                <p> [attr~= "значення"] запит до певних атрибутів у яких є однакове значення </p>
+            </li>
+            <li>
+                <p> [attr|= "значення"] запит до певних атрибутів у яких є однакове значення або співпадіння </p>
+            </li>
+
+            <li>
+                <p> [classˆ= "значення"] запит до всіх обьектів з атрибутом клас які починаются з однакового значення
+                </p>
+            </li>
+
+
+        </ul>
+
+
+    </section>
+
+</body>
+
+</html>

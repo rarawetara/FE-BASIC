@@ -1,0 +1,19 @@
+.first,
+.second {
+  color: blueviolet;
+}
+[data-target] {
+  color: rgb(84, 170, 69);
+}
+.main {
+  color: brown;
+}
+#title {
+  color: blue;
+}
+p {
+  color: rgb(62, 22, 1);
+}
+.container {
+  color: rgb(22, 19, 166);
+}
