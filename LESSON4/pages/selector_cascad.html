@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="../index.html">TYPE</a>
+        <a href="./selector_combination.html">COMBINATION</a>
+        <a href="/">CASCAD</a>
+        <a href="./selector_priority.html">PRIORITY</a>
+        <hr>
+    </nav>
+    <section>
+        <h1 class="main">CASCAD</h1>
+        <ul>
+            <li>
+                <p> .text div запит до будь якого рівня тегу який є елементом вказаного класу
+                </p>
+            </li>
+            <li>
+                <p> .text * запит до будь якого обьекту який знаходиться в вказаному класі
+                </p>
+            </li>
+            <li>
+                <p> .text > div запит до тега першого рівня який знаходиться в вказаному класі
+                </p>
+            </li>
+            <li>
+                <p> .block > .text запит до обьекту з вказаним класом який знаходиться в вказаному класі
+                </p>
+            </li>
+            <li>
+                <p> .text~div запит до усіх вказаних обьектів тогож рівня вкладенності далі по коду
+                </p>
+            </li>
+
+            <li>
+                <p> .text + div запит до першого обьекту вказаного селектора
+                </p>
+            </li>
+            <li>
+                <p> !importand перебивае будь який преорітет </p>
+
+            </li>
+
+        </ul>
+    </section>
+
+
+</body>
+
+</html>
