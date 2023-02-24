@@ -1,13 +1,20 @@
-.container {
-  max-width: 1100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.wrapper {
   margin: auto;
+  width: 300px;
 }
-.container1 {
-  max-width: 1100px;
-  margin: 700px;
-  margin-right: 1px;
-  margin-top: -324px;
-}
-p {
-  color: #333;
+.card {
+  border: 1px solid;
+  max-width: 700px;
+  display: inline-block;
+  margin: 0 15px 15px 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
