@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.wrapper {
+  margin: auto;
+  width: 1000px;
+}
+.card {
+  border: 1px solid;
+  max-width: 300px;
+  display: inline-block;
+  margin: 0 15px 15px 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.left {
+  text-align: center;
+}
