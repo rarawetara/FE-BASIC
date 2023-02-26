@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 img {
-  max-width: 100%;
+  max-width: 70%;
+  margin-left: 45px;
 }
 .wrapper {
   margin: auto;
@@ -17,8 +18,13 @@ img {
   margin: 0 15px 15px 0;
   margin-right: 30px;
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 .left {
   text-align: center;
+}
+.container {
+  margin-left: 50px;
+  margin-top: 30px;
 }
