@@ -1,71 +1,35 @@
-.pull-left {
-  float: left;
-  padding-right: 10px;
-}
-.pull-right {
-  float: right;
-  padding-left: 10px;
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 img {
-  max-width: 300px;
-}
-.container {
-  margin-left: 300px;
-}
-.container2 {
-  margin: 100px;
-  margin: 60px;
-  padding-top: 60px;
-}
-.card {
-  text-align: center;
-  width: 200px;
-  height: 200px;
-  background: #fc8f8f;
-  font-size: 64px;
-  color: #ffffff;
-
-  padding-top: 60px;
-}
-.cards {
-  text-align: center;
-  width: 100px;
-  height: 100px;
-  background: #fc8f8f;
-  font-size: 36px;
-  color: #ffffff;
-  margin-left: 10px;
-  padding-top: 30px;
-}
-.body {
-  background: #c4c4c4;
-  width: 1100px;
-  height: 800px;
+  max-width: 70%;
+  margin-left: 45px;
 }
 .wrapper {
-  background: #e6e6e6;
+  margin: auto;
+  width: 1000px;
 }
-.clearfix {
-  overflow: auto;
-  margin-block: 30px;
-  height: 200px;
+.card {
+  border: 1px solid;
+  max-width: 300px;
+  display: inline-block;
+  margin: 0 15px 15px 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
 }
-.card_wrapper {
-  float: right;
-}
-.text {
+
+.left {
   text-align: center;
-  font-weight: bolder;
 }
-.card + .card {
-  margin-left: 10px;
+.container {
+  margin-left: 50px;
+  margin-top: 30px;
 }
-body {
-  font-family: "Roboto", sans-serif;
+
+.both {
+  border: 1px solid black;
+  clear: both;
 }
