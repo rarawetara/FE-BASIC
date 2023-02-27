@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>autoregistration</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a href="../index.html">ГОЛОВНА</a>
+            <a href="./registration.html">РЕГЕСТРАЦІЯ</a>
+            <a href="./autoresation.html">АВТОРИЗАЦІЯ</a>
+            <a href="./searching.html">ПОШУК</a>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section>
+            <form action="https://fom.in.ua/echo" method="post">
+                <div class="container">
+                    <div class="form">
+                        <h1 style="text-align: center;  color: black;">Sing in</h1>
+
+                        <fieldset>
+                            <legend>Login</legend>
+
+                            <p>
+                                <label>
+                                    <span>Email</span>
+                                    <input type="email" name="email" placeholder="enter your email" required>
+                                </label>
+                            </p>
+
+                            <p>
+                                <label>
+                                    <span>Password</span>
+                                    <input type="password" name="password" placeholder="enter tour password" required>
+                                </label>
+                            </p>
+
+                        </fieldset>
+                        <fieldset>
+                            <legend>Remember Password</legend>
+                            <label>
+                                <input type="radio" name="group" value="yes" required>
+                                yes
+                            </label>
+                            <br>
+
+                            <label>
+                                <input type="radio" name="group" value="no" required>
+                                no
+                            </label>
+
+                            <br>
+
+
+                            <button>Enter</button>
+                        </fieldset>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a href="../index.html">ГОЛОВНА</a>
+            <a href="./registration.html">РЕГЕСТРАЦІЯ</a>
+            <a href="./autoresation.html">АВТОРИЗАЦІЯ</a>
+            <a href="./search.html">ПОШУК</a>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section>
+
+            <form action="https://fom.in.ua/echo" method="post">
+                <div class="container">
+                    <div class="form">
+                        <h1 style="text-align: center; color: black;">
+                            Search
+                        </h1>
+
+                        <fieldset>
+                            <legend>комфорт</legend>
+                            <label>
+                                <input type="checkbox" name="check" value="1">
+                                люк
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="check" value="2">
+                                шкіряний салон
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="check" value="3">
+                                підсвітка
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="check" value="4">
+                                теплі сидиня
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="check" value="5">
+                                кондиціонер
+                            </label>
+                        </fieldset>
+
+                        <br>
+
+                        <fieldset>
+                            <p>
+                                <span>Оберіть марку машини</span>
+                                <select name="list" id="list">
+                                    <option value="1">marcedes</option>
+                                    <option value="2">volzwagen</option>
+                                    <option value="3">toyota</option>
+                                    <option value="4">ferrari</option>
+                                    <option value="5">mazda</option>
+                                </select>
+                            </p>
+                        </fieldset>
+
+                        <br>
+                        <fieldset>
+                            <label>
+                                <input type="color" name="color">
+                                оберіть колір машини
+                            </label>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <span style="text-align: center;">вмість баку</span>
+                            <p>
+                                <label>
+                                    від 1
+                                    <input type="range" name="range" max="100" min="1" step="2">
+                                    до 100
+                                </label>
+                            </p>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <p>
+                                <span>Тип кузова:</span>
+                                <br>
+                                <select multiple name="valueList">
+                                    <option value="1">седан</option>
+                                    <option value="2">купе</option>
+                                    <option value="3">пікап</option>
+                                    <option value="4">лимузин</option>
+                                    <option value="5">універсал</option>
+                                </select>
+                            </p>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <p>
+                                <span>Країна виробник:</span>
+                                <br>
+                                <select name="list2" id="list2">
+                                    <option value="1">україна</option>
+                                    <option value="2">германія</option>
+                                    <option value="3">японія</option>
+                                    <option value="4">китай</option>
+                                    <option value="5">сша</option>
+                                </select>
+                            </p>
+                        </fieldset>
+                        <br>
+
+                        <fieldset>
+
+                            <span>Ціна</span>
+                            <p>
+                                <label>
+                                    <input type="search" name="search" placeholder="від">
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="search" name="search" placeholder="до">
+                                </label>
+                            </p>
+
+                        </fieldset>
+
+                        <br>
+                        <fieldset>
+                            <p>
+                                <label>
+                                    Рік випуску машини
+                                    <input type="date" name="date">
+
+                                </label>
+                            </p>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Стан машини</legend>
+                            <label>
+                                <input type="checkbox" name="check" value="1">
+                                нова
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="check" value="2">
+                                бита
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="check" value="3">
+                                відремонтвана
+                            </label>
+                            <br>
+                        </fieldset>
+                        <fieldset>
+                            <span>Тип палива:</span>
+                            <br>
+                            <select multiple name="valueList">
+                                <option value="1">газ</option>
+                                <option value="2">дизель</option>
+                                <option value="3">електро</option>
+                            </select>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <p>
+                                <span>Оберіть коробку передач</span>
+                                <select name="list3" id="list3">
+                                    <option value="1">механична</option>
+                                    <option value="2">автомат</option>
+                                    <option value="3">варіативна</option>
+                                </select>
+                            </p>
+                        </fieldset>
+
+                        <button>підтвердити</button>
+
+                    </div>
+                </div>
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
