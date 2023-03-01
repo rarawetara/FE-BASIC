@@ -25,46 +25,50 @@
     <main>
         <section>
             <form action="https://fom.in.ua/echo" method="post">
-                <div class="container">
+                <div class="wrapper">
                     <div class="form">
                         <h1 style="text-align: center;  color: black;">Sing in</h1>
+                        <div class="input_area">
+                            <fieldset>
+                                <legend style="text-align: center;">Login</legend>
 
-                        <fieldset>
-                            <legend>Login</legend>
 
-                            <p>
                                 <label>
                                     <span>Email</span>
                                     <input type="email" name="email" placeholder="enter your email" required>
                                 </label>
-                            </p>
+                                <br>
 
-                            <p>
+
                                 <label>
                                     <span>Password</span>
                                     <input type="password" name="password" placeholder="enter tour password" required>
                                 </label>
-                            </p>
+                                <br>
 
-                        </fieldset>
-                        <fieldset>
-                            <legend>Remember Password</legend>
-                            <label>
-                                <input type="radio" name="group" value="yes" required>
-                                yes
-                            </label>
+                            </fieldset>
+                        </div>
+                        <div class="input_area">
+                            <fieldset>
+                                <legend>Remember Password</legend>
+                                <label>
+                                    <input type="radio" name="group" value="yes" required>
+                                    yes
+                                </label>
+                                <br>
+
+                                <label>
+                                    <input type="radio" name="group" value="no" required>
+                                    no
+                                </label>
+
+                                <br>
+
+
+                            </fieldset>
                             <br>
-
-                            <label>
-                                <input type="radio" name="group" value="no" required>
-                                no
-                            </label>
-
-                            <br>
-
-
-                            <button>Enter</button>
-                        </fieldset>
+                            <button style="background-color:rgb(255, 201, 25) ;">УВІЙТИ</button>
+                        </div>
                     </div>
                 </div>
             </form>

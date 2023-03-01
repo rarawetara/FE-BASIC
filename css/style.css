@@ -1,18 +1,60 @@
-.container {
-  max-width: 1140px;
-  margin-left: 500px;
-  margin-top: 30px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 .form {
-  color: aliceblue;
-  background: rgb(143, 108, 177);
-  padding: 15px;
+  color: rgb(0, 0, 0);
+  background: rgba(222, 178, 34, 0.513);
   width: 500px;
+  box-shadow: 2px 1px 2px rgb(60, 35, 0);
+  padding: 10px;
+  margin-left: 500px;
 }
+
 body {
   text-rendering: optimizeSpeed;
+  padding-top: 10px;
+  margin-left: 10px;
+  background-color: rgb(255, 201, 25);
 }
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.input_area {
+  width: 300px;
+  margin-bottom: 12px;
+  margin-left: 80px;
+}
+
 a:any-link {
   color: black;
   text-decoration: none;
+}
+.content-box {
+  box-sizing: border-box;
+  padding-top: 10px;
+  border: 1px solid;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(255, 187, 0, 0.351);
+}
+
+.container {
+  padding: 0 200px;
+  text-align: center;
+  margin-top: 60px;
+}
+input {
+  margin-left: 10px;
+  padding-inline: 40px;
+}
+select {
+  padding-inline: 30px;
+  background-color: rgb(255, 201, 25);
 }
