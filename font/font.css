@@ -1,9 +1,27 @@
 @font-face {
-  font-family: "Roboto";
-  src: url(./Roboto-Bold.woff2) format("woff2");
+  font-family: "Courgette";
+  src: url("Courgette-Regular.woff2") format("woff2");
   font-weight: 400;
+  font-style: normal;
+}
 
-  font-family: "Roboto";
-  src: url(./Roboto-Regular.woff2) format("woff2");
+@font-face {
+  font-family: "Limelight";
+  src: url("Limelight-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato-reg";
+  src: url("Lato-Regular") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("Lato-Bold.woff2") format("woff2");
   font-weight: 700;
+  font-style: normal;
 }

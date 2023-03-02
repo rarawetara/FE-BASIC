@@ -1,16 +1,174 @@
-body {
-  font-family: Roboto;
+/*-----------------------------------------------------------------------------------*/
+.bg-beige {
+  background-color: var(--color-beige);
+}
+.bg-red {
+  background-color: var(--color-red);
+}
+.bg-blue {
+  background-color: var(--color-lightblue);
+}
+
+/*-----------------------------------------HEADER------------------------------------------*/
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.logo {
+  font-family: "Courgette", cursive;
+  font-size: 32px;
+  margin-right: 80px;
+  float: left;
+}
+.text-green {
+  color: #62bfad;
+}
+.navigation {
+  padding-top: 11px;
+}
+.nav-link + .nav-link {
+  margin-left: 20px;
+}
+/*--------------------------------------------SECTION-1---------------------------------------*/
+.section-1 {
+  padding-top: 200px;
+  padding-bottom: 170px;
+
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mx-auto {
+  padding-left: 351px;
+  padding-right: 330px;
+  font-family: "Limelight";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+/*--------------------------------------------ABOUT---------------------------------------*/
+.about-section {
+  padding-top: 95px;
+  padding-bottom: 80px;
+}
+.section-title {
+  font-size: 48px;
+  color: var(--color-red);
+  margin-left: 240px;
+  padding-bottom: 40px;
+  font-family: "lato";
+  font-weight: 700;
+}
+.card-description {
+  text-align: center;
+  padding-top: 24px;
+  height: 0 auto;
+  width: 0 auto;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+  font-family: "lato";
+}
+.main-title {
+  font-size: 48px;
+  margin-left: 240px;
+  padding-bottom: 40px;
+}
+.content {
+  width: 550px;
+  height: 348px;
+  background: #e5e5e5;
+  border-radius: 8px 0px 0px 8px;
+  display: inline-block;
+  padding: 24px;
+}
+.card-title {
+  margin-left: 24px;
+  padding-top: 24px;
+  font-family: "Lato";
+  font-weight: 700px;
+  font-size: 32px;
+}
+.content,
+.imgContent {
+  width: 550px;
+  height: 348px;
+}
+
+.imgContent {
+  float: right;
+}
+.clearfix {
+  clear: both;
+}
+/*------------------------------------Features-----------------------------------------------*/
+.features-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.features-title {
+  font-size: 48px;
+  color: var(--color-red);
+  margin-left: 240px;
+  padding-bottom: 40px;
+  font-family: "lato";
+  font-weight: 700;
+}
+.card {
   box-sizing: border-box;
+  width: 322px;
+  height: 409px;
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-radius: 8px;
+  display: inline-block;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.card + .card {
+  margin-left: 60px;
 }
-img {
-  max-width: 300px;
+.img-features,
+.h2-features,
+.p-features {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
 }
-.container {
-  max-width: 1100px;
-  margin: auto;
+.p-features {
+  font-family: "lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.h2-features {
+  font-family: "Lato";
+  font-weight: 700px;
+  font-size: 24px;
+  font-style: normal;
+}
+.read_more {
+  color: var(--color-red);
+  text-decoration-line: underline;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+}
+.footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.social-link + .social-link {
+  margin-left: 1rem;
+}
+.social-link:hover svg path {
+  transition: all linear 0.2s;
+}
+.social-link:hover svg path {
+  fill: var(--color-red);
+}
+.socials {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
