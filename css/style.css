@@ -1,16 +1,38 @@
-body {
-  font-family: Roboto;
-  box-sizing: border-box;
+table {
+  border: 1px solid rgba(69, 100, 255, 0.624);
+  text-align: center;
+  margin-bottom: 10px;
+  background: rgba(194, 240, 255, 0.299);
+  color: rgba(0, 81, 255, 0.62);
+  font-family: "Courier New", Courier, monospace;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+th,
+td {
+  padding: 0.25rem 0.5rem;
 }
-img {
-  max-width: 300px;
+th {
+  background-color: lightblue;
+}
+caption {
+  font-size: 20px;
+  color: rgba(0, 81, 255, 0.468);
+}
+tbody {
+  border: 1px solid;
 }
 .container {
-  max-width: 1100px;
+  border: 1px solid;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  max-width: 1400px;
   margin: auto;
+  background: lavenderblush;
+}
+.fix-width {
+  width: 250px;
+  word-wrap: break-word;
 }
