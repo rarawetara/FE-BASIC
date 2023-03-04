@@ -34,6 +34,11 @@
   padding-top: 200px;
   padding-bottom: 170px;
 }
+.main-title {
+  font-size: 48px;
+  margin-left: 240px;
+  padding-bottom: 40px;
+}
 .mx-auto {
   font-family: "Limelight";
   font-style: normal;
@@ -57,38 +62,33 @@
   font-family: "lato";
   font-weight: 700;
 }
-.card-description {
-  text-align: center;
+.card-title {
+  margin-left: 24px;
   padding-top: 24px;
-  height: 0 auto;
-  width: 0 auto;
-  text-align: justify;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 32px;
+}
+.card-description {
+  padding-top: 24px;
+  height: 239px;
+  width: 507px;
+  text-align: left;
   font-weight: 400;
   font-size: 17px;
   line-height: 29px;
   font-family: "Lato";
   font-weight: 400;
   font-style: normal;
-}
-.main-title {
-  font-size: 48px;
-  margin-left: 240px;
-  padding-bottom: 40px;
+  padding-left: 35px;
 }
 .content {
-  width: 550px;
+  width: 555px;
   height: 348px;
   background: #e5e5e5;
   border-radius: 8px 0px 0px 8px;
   display: inline-block;
   padding: 24px;
-}
-.card-title {
-  margin-left: 24px;
-  padding-top: 24px;
-  font-family: "Lato";
-  font-weight: 700px;
-  font-size: 32px;
 }
 .content,
 .imgContent {
@@ -135,6 +135,12 @@
   padding-right: 24px;
   padding-top: 24px;
 }
+.h2-features {
+  font-family: "lato";
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+}
 .p-features {
   font-family: "Lato";
   font-weight: 400;
@@ -142,12 +148,6 @@
   line-height: 19px;
   letter-spacing: 0em;
   text-align: left;
-}
-.h2-features {
-  font-family: "lato";
-  font-weight: 700;
-  font-size: 24px;
-  font-style: normal;
 }
 .read_more {
   color: var(--color-red);
