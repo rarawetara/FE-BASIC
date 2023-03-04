@@ -1,9 +1,8 @@
 :root {
-  --container-width: 1100px;
+  --container-width: 1920px;
   --basic-space: 1rem;
-  --color-beige: #f9f7e8;
-  --color-red: #d52047;
-  --color-lightblue: #eff8f6;
+  --color-white: #eeeff1;
+  --color-blue: #34547a;
 }
 * {
   margin: 0;
