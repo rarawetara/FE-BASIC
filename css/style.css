@@ -1,5 +1,5 @@
-.bg-white {
-  background-color: var(--color-white);
+.bg-gray {
+  background-color: var(--color-gray);
 }
 
 .bg-blue {
@@ -7,35 +7,29 @@
 }
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .header {
-  height: 158px;
-  width: 1920px;
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0.1em;
   text-align: left;
+  padding-left: 399px;
 }
 .navigation {
-  padding-top: 79px;
-  padding-left: 399px;
-  padding-right: 423px;
-  padding-bottom: 21px;
+padding-top:79px;
+
 }
 a + a {
   padding-left: 48px;
 }
 /*/ /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .Disign-layout {
-  width: 1920px;
-  height: 542px;
+  padding-left: 399px;
+  padding-bottom: 141px;
 }
 
 .disign-title {
-  height: 280px;
-  padding-left: 399px;
   padding-top: 151px;
-  padding-bottom: 50px;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 48px;
@@ -43,7 +37,6 @@ a + a {
 }
 .disign-par {
   padding-top: 20px;
-  padding-left: 399px;
   padding-bottom: 64px;
   font-family: "Roboto";
   font-style: normal;
@@ -55,7 +48,7 @@ a + a {
 .disign-button {
   width: 225px;
   height: 65px;
-  margin-left: 399px;
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -68,12 +61,12 @@ a + a {
 }
 /*/ /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .About {
-  width: 1920px;
-  height: 359px;
+ margin-bottom: 100px;
 }
+
 .About-title {
-  padding-top: 112px;
-  padding-bottom: 50px;
+margin-top: 112px;
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -82,9 +75,8 @@ a + a {
   text-align: center;
 }
 .About-par {
-  width: 540px;
-  height: 67px;
-  margin: auto;
+ 
+  margin-top: 50px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -95,15 +87,14 @@ a + a {
 }
 /*/ /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .Cards {
-  width: 1920px;
-  height: 250px;
+  display: flex;
   padding-top: 100px;
-  padding-left: 412px;
   padding-bottom: 100px;
   box-sizing: border-box;
-  display: inline-block;
 }
-
+.card {
+  float: left;
+}
 .card-h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -129,13 +120,12 @@ a + a {
 }
 /*/ /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .How-Work {
-  width: 1920px;
-  height: 1004px;
+ 
   
 }
 .How-title {
-  padding-top: 100px;
-  padding-bottom: 50px;
+padding-top: 112px;
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -144,9 +134,8 @@ a + a {
   text-align: center;
 }
 .How-par {
-  width: 540px;
-  height: 67px;
-  margin: auto;
+
+  margin-top: 50px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -156,18 +145,18 @@ a + a {
   color: #727272;
 }
 video{
-    width: 1110px;
-    height: 600px;
-margin-left: 400px;
+  
+
 }
 /*/ /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .footer {
-  width: 1920px;
-  height: 151px;
+  padding-left: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .h2footer {
+  display: grid;
   padding-top: 50px;
-  margin-left: 406px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -176,8 +165,7 @@ margin-left: 400px;
   color: #ffffff;
 }
 .p-footer {
-  padding-top: 20px;
-  margin-left: 406px;
+  margin-top: 20px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
