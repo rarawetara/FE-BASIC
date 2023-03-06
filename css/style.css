@@ -13,7 +13,7 @@
   line-height: 26px;
   letter-spacing: 0.1em;
   text-align: left;
-  padding-left: 399px;
+ 
 }
 .navigation {
 padding-top:79px;
@@ -24,7 +24,6 @@ a + a {
 }
 /*/ /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .Disign-layout {
-  padding-left: 399px;
   padding-bottom: 141px;
 }
 
@@ -62,6 +61,10 @@ a + a {
 /*/ /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .About {
  margin-bottom: 100px;
+ max-width: 540px;
+margin-left: auto;
+margin-right: auto;
+
 }
 
 .About-title {
@@ -75,7 +78,8 @@ margin-top: 112px;
   text-align: center;
 }
 .About-par {
- 
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
   font-family: "Roboto";
   font-style: normal;
@@ -119,11 +123,9 @@ margin-top: 112px;
   margin-left: 48px;
 }
 /*/ /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-.How-Work {
- 
-  
-}
+
 .How-title {
+  
 padding-top: 112px;
 
   font-family: "Roboto";
@@ -132,6 +134,10 @@ padding-top: 112px;
   font-size: 32px;
   line-height: 38px;
   text-align: center;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 .How-par {
 
@@ -143,18 +149,26 @@ padding-top: 112px;
   line-height: 26px;
   text-align: center;
   color: #727272;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 video{
-  
+  margin-top: 50px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+padding-bottom: 100px;
 
 }
 /*/ /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .footer {
-  padding-left: 400px;
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 .h2footer {
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
   padding-top: 50px;
   font-family: "Roboto";
@@ -165,6 +179,8 @@ video{
   color: #ffffff;
 }
 .p-footer {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
   font-family: "Roboto";
   font-style: normal;

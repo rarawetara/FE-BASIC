@@ -1,5 +1,5 @@
 :root {
-  --container-width: 1920px;
+  --container-width: 1110px;
   --basic-space: 1rem;
   --color-gray: #eeeff1;
   --color-blue: #34547a;
@@ -19,14 +19,6 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
-}
-
-.wrapper {
-  max-width: calc(var(--container-width) + var(--basic-space) * 2);
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: var(--basic-space);
-  padding-right: var(--basic-space);
 }
 
 .container {
