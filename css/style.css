@@ -25,10 +25,10 @@ a + a {
 /*/ /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .Disign-layout {
   padding-bottom: 141px;
+  padding-top: 151px;
 }
 
 .disign-title {
-  padding-top: 151px;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 48px;
@@ -36,7 +36,7 @@ a + a {
 }
 .disign-par {
   padding-top: 20px;
-  padding-bottom: 64px;
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -45,6 +45,7 @@ a + a {
   color: #727272;
 }
 .disign-button {
+  margin-top: 65px;
   width: 225px;
   height: 65px;
 
@@ -65,10 +66,10 @@ a + a {
 margin-left: auto;
 margin-right: auto;
 
+margin-top: 112px;
 }
 
 .About-title {
-margin-top: 112px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -123,10 +124,12 @@ margin-top: 112px;
   margin-left: 48px;
 }
 /*/ /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ .How-Work{
 
-.How-title {
+   padding-top: 112px;
+ }
+ .How-title {
   
-padding-top: 112px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -165,12 +168,12 @@ padding-bottom: 100px;
 /*/ /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .footer {
   padding-bottom: 50px;
+  padding-top: 50px;
 }
 .h2footer {
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  padding-top: 50px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
