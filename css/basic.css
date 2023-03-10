@@ -30,17 +30,6 @@ body {
   padding-right: var(--basic-space);
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: var(--basic-space);
-  padding-right: var(--basic-space);
-}
 img {
   max-width: 100%;
 }
-
-/*.hidden {
-      display: none !important;
-    }
-    */
