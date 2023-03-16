@@ -1,0 +1,101 @@
+@import url(./basic.css);
+
+.bg-black {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.bg-orange {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+}
+.bg-gray {
+  background-color: var(--color-gray);
+  color: var(--color-black);
+}
+
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.gap-32 {
+  gap: 32px;
+  display: flex;
+}
+.gap-24 {
+  gap: 24px;
+  display: flex;
+}
+.gap-94 {
+  gap: 94px;
+  display: flex;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+  width: 126px;
+  height: 42px;
+  letter-spacing: 0.05em;
+  border: 1px solid #161513;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  border-radius: 0px;
+  color: black;
+}
+.btn-default {
+  border-color: var(--color-black);
+  color: var(--text-color);
+}
+.btn.btn-black {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.btn.btn-red {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+}
+/*////////////////////HEADER/////////////////////////////*/
+.wrapper {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-content {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.nav-link {
+  text-decoration: underline;
+}
+/*////////////////////FIRST-SECTION/////////////////////////////*/
+.img1 {
+  border-radius: 300px;
+}
+
+.first-section .main-taitle {
+  font-family: Bai Jamjuree;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+}
+.skill {
+  position: absolute;
+
+  font-family: Bai Jamjuree;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.47999998927116394px;
+}
+.main-btn {
+  position: absolute;
+  align-self: self-end;
+}
