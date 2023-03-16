@@ -74,28 +74,164 @@
 }
 .nav-link {
   text-decoration: underline;
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 /*////////////////////FIRST-SECTION/////////////////////////////*/
+
 .img1 {
   border-radius: 300px;
 }
+.description {
+  margin-top: 35px;
+  margin-bottom: 40px;
 
-.first-section .main-taitle {
-  font-family: Bai Jamjuree;
-  font-size: 56px;
-  font-weight: 400;
-  line-height: 64px;
-}
-.skill {
-  position: absolute;
-
+  gap: 32px;
   font-family: Bai Jamjuree;
   font-size: 23px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0.47999998927116394px;
 }
-.main-btn {
-  position: absolute;
-  align-self: self-end;
+
+.first-section .main-title {
+  font-family: Bai Jamjuree;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+}
+.btn-black {
+  width: 176px;
+}
+.img-wrap {
+  margin-left: 16px;
+}
+
+.line {
+  transform: rotate(-4.93deg);
+  height: 48px;
+  left: 0%;
+  right: 0%;
+  top: 522.03px;
+  margin-top: 60px;
+}
+.content-l {
+  gap: 94px;
+  white-space: nowrap;
+}
+.about-card {
+  margin-top: 158px;
+}
+.about-p {
+  font-family: Bai Jamjuree;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.47999998927116394px;
+  margin-bottom: 21px;
+}
+.about-h2 {
+  font-family: Bai Jamjuree;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.5600000023841858px;
+  max-width: 331px;
+}
+.about-p2 {
+  font-family: Bai Jamjuree;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.about-2h2 {
+  font-family: Bai Jamjuree;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.6399999856948853px;
+  text-align: left;
+  margin-bottom: 36px;
+}
+.card2 {
+  max-width: 598px;
+}
+.cards {
+  display: flex;
+  gap: 134px;
+}
+.cards + cards {
+  margin-left: 134px;
+}
+
+.cards-p {
+  margin-top: 27px;
+  font-family: Bai Jamjuree;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e94d35;
+}
+.cards-h3 {
+  font-family: Bai Jamjuree;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.47999998927116394px;
+  text-align: left;
+  color: black;
+}
+
+.big-card {
+  display: flex;
+  margin-top: 122px;
+}
+.big-card-full {
+  width: 352px;
+  height: 152px;
+  border: 1px solid #161513;
+}
+
+.big-card-black {
+  width: 352px;
+  height: 152px;
+  color: white;
+  background-color: black;
+}
+
+.b-c-text {
+  transition: all 0.2s linear;
+  color: black;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-top: 21px;
+}
+.big-card-h4 {
+  font-family: Bai Jamjuree;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 7px;
+}
+.big-card-p {
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 1.2799999713897705px;
+  text-align: center;
+}
+.big-card-h4 {
+  margin-top: 30px;
+  margin-bottom: 4px;
 }
