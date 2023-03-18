@@ -38,6 +38,9 @@
   gap: 94px;
   display: flex;
 }
+.gap-44 {
+  gap: 44px;
+}
 .btn {
   display: inline-block;
   text-align: center;
@@ -234,4 +237,158 @@
 .big-card-h4 {
   margin-top: 30px;
   margin-bottom: 4px;
+}
+
+.Awards-section {
+  margin-top: 120px;
+}
+
+.card-a {
+  border: 2px solid #161513;
+  margin-bottom: 24px;
+}
+.p-a {
+  margin-right: 34px;
+}
+.text-awards {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 34px;
+
+  font-family: Bai Jamjuree;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.47999998927116394px;
+  white-space: nowrap;
+}
+.icon {
+  width: 48px;
+  height: 40px;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  text-align: center;
+  font-family: Bai Jamjuree;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.Awards-p {
+  font-family: Bai Jamjuree;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Awards-h2 {
+  font-family: Bai Jamjuree;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.47999998927116394px;
+  text-align: left;
+}
+.Awards,
+.Portfolio {
+  display: grid;
+  margin-top: 120px;
+}
+.A-h4 {
+  margin-bottom: 9px;
+  font-family: Bai Jamjuree;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 1.440000057220459px;
+  text-align: center;
+}
+.A-p {
+  margin-bottom: 61px;
+}
+.A-img {
+  justify-self: center;
+  margin-bottom: 22px;
+}
+.Services {
+  margin-bottom: 120px;
+}
+
+.S-card {
+  height: 196px;
+  width: 510px;
+  border: 2px solid #161513;
+}
+.S-h2 {
+  font-family: Bai Jamjuree;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.6399999856948853px;
+  text-align: left;
+}
+.S-p {
+  font-family: Bai Jamjuree;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.S-card .S-text {
+  margin-top: 34px;
+  max-width: 427px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.S-card {
+  margin-bottom: 40px;
+}
+.p-card > * {
+  width: 50%;
+}
+.p-card + .p-card {
+  margin-top: 96px;
+}
+.Portfolio-card :nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.but-p {
+  width: 181px;
+  height: 40px;
+  margin-bottom: 35px;
+  font-family: Bai Jamjuree;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 1.440000057220459px;
+}
+.h3-p {
+  font-family: Bai Jamjuree;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 1.440000057220459px;
+  text-align: left;
+
+  margin-bottom: 49px;
+}
+.a-p {
+  font-family: Bai Jamjuree;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.happy_c {
+  border: 1px solid #131416;
+  width: 241px;
+  height: 98px;
+  margin-bottom: 32px;
+}
+.Happy {
+  margin-left: 80px;
+  margin-top: 41px;
 }
