@@ -80,7 +80,7 @@
 }
 .nav-link {
   text-decoration: underline;
-  font-family: "Bai Jamjuree";
+  font-family: "BaiJamjuree";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -97,7 +97,7 @@
   margin-bottom: 40px;
 
   gap: 32px;
-  font-family: "Bai Jamjuree,sans-serif";
+  font-family: "BaiJamjuree";
   font-size: 23px;
   font-weight: 400;
   line-height: 32px;
@@ -116,17 +116,20 @@
 .img-wrap {
   margin-left: 16px;
 }
+.liner {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 78px;
+  padding-bottom: 78px;
+}
 
 .line {
   transform: rotate(-4.93deg);
   height: 48px;
-  left: 0%;
-  right: 0%;
-  top: 522.03px;
   margin-top: 60px;
   padding: 1rem 0;
-  width: calc(100%+2rem);
   margin-left: -1rem;
+  width: calc(100% + 2rem);
 }
 .content-l {
   gap: 94px;
@@ -136,7 +139,7 @@
   margin-top: 158px;
 }
 .about-p {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 23px;
   font-weight: 400;
   line-height: 32px;
@@ -144,15 +147,15 @@
   margin-bottom: 21px;
 }
 .about-h2 {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 56px;
   font-weight: 400;
   line-height: 64px;
   letter-spacing: 0.5600000023841858px;
-  max-width: 331px;
+  max-width: 364px;
 }
 .about-p2 {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -160,7 +163,7 @@
   text-align: left;
 }
 .about-2h2 {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 31px;
   font-weight: 400;
   line-height: 40px;
@@ -173,7 +176,8 @@
 }
 .cards {
   display: flex;
-  gap: 134px;
+  gap: 131px;
+  margin-top: 27px;
 }
 .cards + cards {
   margin-left: 134px;
@@ -181,7 +185,7 @@
 
 .cards-p {
   margin-top: 27px;
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
@@ -190,7 +194,7 @@
   color: #e94d35;
 }
 .cards-h3 {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 23px;
   font-weight: 400;
   line-height: 32px;
@@ -224,7 +228,7 @@
   margin-top: 21px;
 }
 .big-card-h4 {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 56px;
   font-weight: 400;
   line-height: 64px;
@@ -233,7 +237,7 @@
   margin-bottom: 7px;
 }
 .big-card-p {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
@@ -261,7 +265,7 @@
   margin-bottom: 40px;
   margin-left: 34px;
 
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 23px;
   font-weight: 400;
   line-height: 32px;
@@ -274,13 +278,13 @@
   background-color: var(--color-orange);
   color: var(--color-white);
   text-align: center;
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 18px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 35px;
 }
 .Awards-p {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -288,7 +292,7 @@
   text-align: left;
 }
 .Awards-h2 {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 23px;
   font-weight: 400;
   line-height: 32px;
@@ -302,7 +306,7 @@
 }
 .A-h4 {
   margin-bottom: 9px;
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 45px;
   font-weight: 400;
   line-height: 56px;
@@ -326,7 +330,7 @@
   border: 2px solid #161513;
 }
 .S-h2 {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 31px;
   font-weight: 400;
   line-height: 40px;
@@ -334,7 +338,7 @@
   text-align: left;
 }
 .S-p {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -364,15 +368,15 @@
   width: 181px;
   height: 40px;
   margin-bottom: 35px;
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 1.440000057220459px;
 }
 .h3-p {
-  font-family: Bai Jamjuree;
-  font-size: 45px;
+  font-family: "BaiJamjuree";
+  font-size: 43px;
   font-weight: 400;
   line-height: 56px;
   letter-spacing: 1.440000057220459px;
@@ -381,7 +385,7 @@
   margin-bottom: 49px;
 }
 .a-p {
-  font-family: Bai-Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
@@ -415,7 +419,7 @@
   margin-left: 34px;
 }
 .article-h5 {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
@@ -423,16 +427,17 @@
   color: var(--color-orange);
 }
 .article-h4 {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 23px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0.47999998927116394px;
   text-align: left;
+  max-width: 407px;
 }
 .article-p_left {
   margin-top: 14px;
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -455,7 +460,7 @@
   margin-top: 60px;
 }
 .footer-h5 {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 23px;
   font-weight: 400;
   line-height: 32px;
@@ -466,7 +471,7 @@
   width: 354px;
   height: 56px;
   border: 2px solid #161513;
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 23px;
   font-weight: 400;
   line-height: 32px;
@@ -480,7 +485,7 @@
 }
 
 .btn-black {
-  font-family: Bai Jamjuree;
+  font-family: "BaiJamjuree";
   font-size: 23px;
   font-weight: 400;
   line-height: 32px;
@@ -515,7 +520,7 @@
 }
 input::placeholder {
   color: black;
-  margin-left: 21px;
+  padding: 1rem;
 }
 .Articles {
   position: relative;
