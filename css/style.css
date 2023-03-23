@@ -97,7 +97,7 @@
   margin-bottom: 40px;
 
   gap: 32px;
-  font-family: "Bai Jamjuree";
+  font-family: "Bai Jamjuree,sans-serif";
   font-size: 23px;
   font-weight: 400;
   line-height: 32px;
@@ -402,6 +402,9 @@
   margin-top: 62px;
 }
 
+.article {
+  position: relative;
+}
 .article-content {
   border: 2px solid #000000;
   margin-top: 95px;
@@ -447,12 +450,7 @@
   margin-top: 136px;
   background: #e6e3de;
 }
-.footer-content {
-}
-.flex {
-}
-.justify-between {
-}
+
 .foter_content {
   margin-top: 60px;
 }
@@ -463,10 +461,7 @@
   line-height: 32px;
   letter-spacing: 0.47999998927116394px;
 }
-.input_area {
-}
-.align-center {
-}
+
 .footer-email {
   width: 354px;
   height: 56px;
@@ -483,8 +478,7 @@
   width: 140px;
   height: 56px;
 }
-.btn {
-}
+
 .btn-black {
   font-family: Bai Jamjuree;
   font-size: 23px;
@@ -492,8 +486,10 @@
   line-height: 32px;
   letter-spacing: 0.47999998927116394px;
 }
-.footer-content {
+.footer_content {
   margin-top: 60px;
+  display: flex;
+  align-items: center;
 }
 .footer-down {
   height: 220px;
@@ -501,29 +497,26 @@
   top: 0px;
   border-radius: 0px;
 }
-.container {
-}
+
 .footer-down-content {
   padding-top: 74px;
 }
-.flex {
-}
-.align-center {
-}
-.justify-between {
-}
-.foter_content {
-}
-.footer-down-img {
-}
-.footer-down-p {
-}
+
 .input_area {
   margin-bottom: 56px;
 }
 .big-star {
-  justify-content: end;
+  position: absolute;
+  right: 0;
+  bottom: 220px;
 }
 .footer-nav {
   justify-content: end;
+}
+input::placeholder {
+  color: black;
+  margin-left: 21px;
+}
+.Articles {
+  position: relative;
 }
