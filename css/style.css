@@ -26,6 +26,10 @@
 .justify-center {
   justify-content: center;
 }
+.gap-16 {
+  gap: 16px;
+  display: flex;
+}
 .gap-32 {
   gap: 32px;
   display: flex;
@@ -64,6 +68,7 @@
 .btn.btn-red {
   background-color: var(--color-orange);
   color: var(--color-white);
+  border: none;
 }
 /*////////////////////HEADER/////////////////////////////*/
 .wrapper {
@@ -73,7 +78,7 @@
 }
 .header-content {
   padding-top: 36px;
-  padding-bottom: 36px;
+  padding-bottom: 67px;
 }
 .img-wrap {
   gap: 12px;
@@ -207,14 +212,26 @@
   margin-top: 122px;
 }
 .big-card-full {
-  width: 352px;
-  height: 152px;
-  border: 1px solid #161513;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 33.33%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: 1px solid;
 }
 
 .big-card-black {
-  width: 352px;
-  height: 152px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 33.33%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
   color: white;
   background-color: black;
 }
@@ -273,14 +290,14 @@
 }
 .icon {
   width: 48px;
-  height: 40px;
+  height: 48px;
   background-color: var(--color-orange);
   color: var(--color-white);
   text-align: center;
   font-family: "BaiJamjuree";
   font-size: 18px;
   font-weight: 400;
-  line-height: 35px;
+  line-height: 43px;
 }
 .Awards-p {
   font-family: "BaiJamjuree";
@@ -345,10 +362,9 @@
   text-align: left;
 }
 .S-card .S-text {
-  margin-top: 34px;
+  padding-top: 34px;
   max-width: 427px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 47px;
 }
 .S-card {
   margin-bottom: 40px;
@@ -393,10 +409,15 @@
 }
 .happy_c {
   border: 1px solid #131416;
-  width: 241px;
-  height: 98px;
+
   margin-bottom: 32px;
+  align-items: baseline;
+  display: flex;
+  justify-content: flex-start;
+  width: 23%;
+  min-height: 100px;
 }
+
 .Happy {
   margin-left: 75px;
   margin-top: 41px;
