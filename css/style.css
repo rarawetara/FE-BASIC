@@ -79,7 +79,7 @@
   gap: 12px;
 }
 .nav-link {
-  text-decoration: underline;
+  border-bottom: 1px solid;
   font-family: "BaiJamjuree";
   font-size: 16px;
   font-weight: 400;
