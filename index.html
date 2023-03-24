@@ -5,23 +5,438 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hw</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./font/font.css">
+
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="./index.html">MAIN</a>
-        </nav>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content flex  align-center justify-between ">
+                <div class="img-wrap flex  align-center justify-between  ">
+                    <img src="./media/1.s.svg" alt="1.s">
+                    <a class="logo" href="/index.html">
+                        <svg width="87" height="18" viewBox="0 0 87 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.5684 0.394531C21.2279 0.394531 22.5598 0.940401 23.5642 2.03214C24.5686 3.1021 25.0708 4.5104 25.0708 6.2572V16.9999H20.6165V6.2572C20.6165 5.6458 20.4746 5.1654 20.1907 4.8161C19.9069 4.4449 19.5357 4.2593 19.0771 4.2593H17.6688C17.0574 4.2593 16.5225 4.4886 16.0639 4.9471C15.6054 5.3838 15.3215 5.9733 15.2124 6.7157V16.9999H10.7581V6.2899C10.7581 5.6786 10.6161 5.1873 10.3323 4.8161C10.0484 4.4449 9.6773 4.2593 9.2187 4.2593H7.9414C7.3082 4.2593 6.7514 4.5432 6.271 5.1109C5.7907 5.6786 5.485 6.421 5.354 7.338V16.9999H0.899704V0.656551H5.02641V2.55618C5.41951 1.90113 5.9217 1.3771 6.533 0.984071C7.1663 0.591051 7.7995 0.394531 8.4327 0.394531H10.2668C11.0528 0.394531 11.7625 0.601961 12.3957 1.01682C13.0507 1.43169 13.5638 2.01031 13.935 2.75269C14.4154 2.01031 14.9831 1.43169 15.6382 1.01682C16.315 0.601961 17.0247 0.394531 17.767 0.394531H19.5684ZM34.656 17.2619C33.2804 17.2619 32.0576 16.9999 30.9877 16.4759C29.9396 15.93 29.1208 15.1658 28.5313 14.1832C27.9636 13.2006 27.6797 12.0652 27.6797 10.777V6.945C27.6797 5.6567 27.9745 4.5213 28.564 3.5388C29.1536 2.53435 29.9724 1.75921 31.0205 1.21334C32.0904 0.667471 33.3131 0.394531 34.6887 0.394531H37.6364C39.012 0.394531 40.2238 0.667471 41.2719 1.21334C42.3418 1.75921 43.1715 2.53435 43.7611 3.5388C44.3506 4.5213 44.6454 5.6567 44.6454 6.945V10.777C44.6454 12.0652 44.3506 13.2006 43.7611 14.1832C43.1715 15.1658 42.3418 15.93 41.2719 16.4759C40.2238 16.9999 39.0011 17.2619 37.6037 17.2619H34.656ZM37.5382 13.4299C38.346 13.4299 38.9902 13.157 39.4705 12.6111C39.9509 12.0434 40.1911 11.3119 40.1911 10.4167V7.2398C40.1911 6.3445 39.9509 5.624 39.4705 5.0781C38.9902 4.5104 38.357 4.2266 37.5709 4.2266H34.7542C33.9682 4.2266 33.335 4.5104 32.8546 5.0781C32.3742 5.624 32.134 6.3445 32.134 7.2398V10.4167C32.134 11.3119 32.3742 12.0434 32.8546 12.6111C33.335 13.157 33.9572 13.4299 34.7215 13.4299H37.5382ZM50.8793 8.7136L44.8857 0.656551H49.864L53.4668 5.5039L57.07 0.656551H62.048L56.054 8.7136L62.244 16.9999H57.266L53.4668 11.8905L49.6675 16.9999H44.6892L50.8793 8.7136ZM68.422 17.2619C66.718 17.2619 65.343 16.8361 64.295 15.9846C63.247 15.133 62.723 14.0085 62.723 12.6111V11.3993C62.723 10.0237 63.269 8.921 64.36 8.0913C65.452 7.2398 66.893 6.814 68.684 6.814H70.681C71.249 6.814 71.861 6.8904 72.516 7.0432C73.171 7.1961 73.771 7.4035 74.317 7.6655V5.9624C74.317 5.4165 74.131 4.9799 73.76 4.6523C73.411 4.303 72.941 4.1283 72.352 4.1283H69.535C68.924 4.1283 68.432 4.2702 68.061 4.5541C67.69 4.8379 67.504 5.22 67.504 5.7004H63.181C63.181 4.1065 63.76 2.82912 64.917 1.86838C66.096 0.885821 67.635 0.394531 69.535 0.394531H72.352C74.273 0.394531 75.824 0.907652 77.003 1.93389C78.182 2.93829 78.771 4.2811 78.771 5.9624V16.9999H74.644V15.0348C74.12 15.7116 73.476 16.2575 72.712 16.6724C71.948 17.0654 71.195 17.2619 70.452 17.2619H68.422ZM70.78 13.8557C71.588 13.8557 72.308 13.6483 72.941 13.2334C73.575 12.8185 74.033 12.2617 74.317 11.563V11.0062C73.968 10.7442 73.476 10.5368 72.843 10.3839C72.232 10.2311 71.577 10.1547 70.878 10.1547H68.815C68.291 10.1547 67.865 10.2857 67.537 10.5477C67.21 10.8097 67.046 11.1591 67.046 11.5958V12.4473C67.046 12.8622 67.221 13.2006 67.57 13.4627C67.941 13.7247 68.422 13.8557 69.011 13.8557H70.78ZM84.077 17.3274C83.269 17.3274 82.614 17.0872 82.111 16.6069C81.631 16.1047 81.391 15.4496 81.391 14.6417C81.391 13.8338 81.631 13.1897 82.111 12.7094C82.614 12.2072 83.269 11.9561 84.077 11.9561C84.885 11.9561 85.529 12.2072 86.009 12.7094C86.511 13.1897 86.762 13.8338 86.762 14.6417C86.762 15.4496 86.511 16.1047 86.009 16.6069C85.529 17.0872 84.885 17.3274 84.077 17.3274Z"
+                                fill="#161513" />
+                        </svg>
+                    </a>
+
+                </div>
+                <nav class="nav gap-32">
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </nav>
+                <button class=" btn btn-default ">Let's talk</button>
+            </div>
+        </div>
     </header>
+    <main class="main">
+        <section class="first-section">
+            <div class="wrapper">
+                <div class="text-wrap flex  align-center justify-between">
+                    <div class="text-wrap">
+                        <h1 class="main-title">HI, I’M TAYLER. <br> A CREATIVE <img src="./media/2.s.svg" alt="2">
+                            DESIGNER <br> BASED IN LONDON</h1>
+                        <div class="description flex">
+                            <p> DESIGN <img class="img-wrap" src="./media/3.s.svg" alt="3"></p>
+                            <p>DEVELOPMENT <img class="img-wrap" src="./media/3.s.svg" alt="3"></p>
+                            <p> WEBFLOW </p>
+                        </div>
+                        <div class="intent flex">
+                            <button class="btn btn-black "> Got a project?</button>
+                            <button class="btn btn-default "> Let's talk.</button>
+                        </div>
+                    </div>
+                    <img class="img1" src="./media/IMAGE.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="liner">
+            <div class="line bg-black  flex  align-center">
+                <div class="container">
+                    <div class="line-wrapper flex  align-center justify-center">
+                        <div class="content-l  flex  align-center">
+                            <p>DEVELOPMENT <img class="img-wrap" src="./media/3.s.svg" alt="3"> </p>
+                            <p> STRATEGY <img class="img-wrap" src="./media/3.s.svg" alt="3"></p>
+                            <p>PRODUCT DESIGN <img class="img-wrap" src="./media/3.s.svg" alt="3"></p>
+                            <p>MOTION GRAPHIC <img class="img-wrap" src="./media/3.s.svg" alt="3"></p>
+                            <p>ART DIRECTION <img class="img-wrap" src="./media/3.s.svg" alt="3"></p>
+                            <p>DESIGN <img class="img-wrap" src="./media/3.s.svg" alt="3"></p>
+                            <p>BRANDING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <main>
-        <section>
+        <section class="second-section">
+            <div class="container">
+                <div class="about-card flex justify-between gap-32">
+                    <div class="card1">
+                        <div class="text">
+                            <p class="about-p">TAYLER <img src="./media/3.s.svg" alt=""> BARTHHOLD</p>
+                            <h2 class="about-h2">Lead product designer and art director.</h2>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="text">
+                            <h2 class="about-2h2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore</h2>
+                            <p class="about-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="cards">
+                                <div class="cards1">
+                                    <p class="cards-p">BORN IN</p>
+                                    <h3 class="cards-h3">New York</h3>
+                                </div>
+                                <div class="cards1">
+                                    <p class="cards-p">EXPERIENCE</p>
+                                    <h3 class="cards-h3">7+ Years</h3>
+                                </div>
+                                <div class="cards1">
+                                    <p class="cards-p">DATE OF BIRTH </p>
+                                    <h3 class="cards-h3">27 June 1992</h3>
+                                </div>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="big-card flex justify-center align-center">
+                    <div class="big-card-full ">
+
+                        <h2 class="big-card-h4">7+</h2>
+                        <p class="big-card-p">Years of Experience</p>
+                    </div>
+                    <div class="big-card-black ">
+                        <h2 class="big-card-h4">50+</h2>
+                        <p class="big-card-p">Project Completed</p>
+                    </div>
+                    <div class="big-card-full ">
+
+                        <h2 class="big-card-h4">30+</h2>
+                        <p class="big-card-p">Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Awards-section">
+            <div class="container">
+                <div class="title">
+                    <div class=" Awards flex  align-center justify-center">
+                        <img class="A-img" src="./media/2.s.svg" alt="1">
+                        <h4 class="A-h4">Awards</h4>
+                        <p class="A-p">REGONITIONS & ACCOIMPLISHMENTS</p>
+                    </div>
+                </div>
+                <div class="Awards-card">
+                    <div class="card-a flex align-center justify-between ">
+                        <div class="img-wrap  flex align-center gap-24">
+                            <p class="icon">1</p>
+                            <div class="text-awards ">
+                                <h4>Webflow Awwwards Team</h4>
+                                <p class="Awards-p">Runner Up - Webflow Expert Design</p>
+                            </div>
+                        </div>
+                        <p class="p-a">PRODUCT DESIGN 2022</p>
+                    </div>
+
+                    <div class="card-a flex align-center justify-between ">
+                        <div class="img-wrap  flex align-center gap-24">
+                            <p class="icon">2</p>
+                            <div class="text-awards ">
+                                <h4>Webflow Awwwards Team</h4>
+                                <p class="Awards-p">Runner Up - Webflow Expert Design</p>
+                            </div>
+                        </div>
+                        <p class="p-a">PRODUCT DESIGN 2022</p>
+                    </div>
+
+                    <div class="card-a flex align-center justify-between ">
+                        <div class="img-wrap  flex align-center gap-24">
+                            <p class="icon">3</p>
+                            <div class="text-awards ">
+                                <h4>Webflow Awwwards Team</h4>
+                                <p class="Awards-p">Runner Up - Webflow Expert Design</p>
+                            </div>
+                        </div>
+                        <p class="p-a">PRODUCT DESIGN 2022</p>
+                    </div>
+
+                    <div class="card-a flex align-center justify-between ">
+                        <div class="img-wrap  flex align-center gap-24">
+                            <p class="icon">4</p>
+                            <div class="text-awards ">
+                                <h4>Webflow Awwwards Team</h4>
+                                <p class="Awards-p">Runner Up - Webflow Expert Design</p>
+                            </div>
+                        </div>
+                        <p class="p-a">PRODUCT DESIGN 2022</p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="Portfolio">
+            <div class=" Portfolio flex  align-center justify-center">
+                <img class="A-img" src="./media/2.s.svg" alt="1">
+                <h4 class="A-h4">Portfolio</h4>
+                <p class="A-p">REGONITIONS & ACCOIMPLISHMENTS</p>
+            </div>
+            <div class="container">
+                <div class="Portfolio-card">
+                    <div class="p-card flex align-center justify-between gap-44">
+                        <img class="p-img" src="./media/p-img1.png" alt="">
+                        <div class="text-wrap_p">
+                            <button class="but-p  btn btn-red">Art Direction</button>
+                            <h3 class="h3-p">Beautiful and advanced website interfaces</h3>
+                            <a href="#" class="a-p">Read More</a>
+                        </div>
+                    </div>
+                    <div class="p-card flex align-center justify-between gap-44">
+                        <img class="p-img" src="./media/p-img2.png" alt="">
+                        <div class="text-wrap_p">
+                            <button class="but-p btn btn-red">Branding</button>
+                            <h3 class="h3-p">Design and extreme programming practice</h3>
+                            <a href="#" class="a-p">Read More</a>
+                        </div>
+                    </div>
+                    <div class="p-card flex align-center justify-between gap-44">
+                        <img class="p-img" src="./media/p-img3.png" alt="">
+                        <div class="text-wrap_p">
+                            <button class="but-p btn btn-red">Web Design</button>
+                            <h3 class="h3-p">Nature inspired design</h3>
+                            <a href="#" class="a-p">Read More</a>
+                        </div>
+                    </div>
+                    <div class="p-card flex align-center justify-between gap-44">
+                        <img class="p-img" src="./media/p-img4.png" alt="">
+                        <div class="text-wrap_p">
+                            <button class="but-p btn btn-red">Motion Graphics</button>
+                            <h3 class="h3-p">Design & concept at work.</h3>
+                            <a href="#" class="a-p">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+        <section class="Services">
+            <div class="title">
+                <div class=" Awards flex  align-center justify-center">
+                    <img class="A-img" src="./media/2.s.svg" alt="1">
+                    <h4 class="A-h4">Services</h4>
+                    <p class="A-p">REGONITIONS & ACCOIMPLISHMENTS</p>
+                </div>
+                <div class="container">
+                    <div class="Services-card">
+                        <div class="left-side flex gap-32">
+                            <div class="S-card">
+                                <div class="S-text">
+                                    <h2 class="S-h2">Web Design</h2>
+                                    <p class="S-p">Every single project is a challenge that we accept eagerly. Let’s
+                                        implement
+                                        innovative ideas together!</p>
+                                </div>
+                            </div>
+                            <div class="S-card">
+                                <div class="S-text">
+                                    <h2 class="S-h2">Product Design</h2>
+                                    <p class="S-p">Every single project is a challenge that we accept eagerly. Let’s
+                                        implement innovative ideas together!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-side flex gap-32">
+                            <div class="S-card">
+                                <div class="S-text">
+                                    <h2 class="S-h2">UI/UX Design</h2>
+                                    <p class="S-p">Every single project is a challenge that we accept eagerly. Let’s
+                                        implement
+                                        innovative ideas together!</p>
+                                </div>
+                            </div>
+                            <div class="S-card">
+                                <div class="S-text">
+                                    <h2 class="S-h2">Art Direction</h2>
+                                    <p class="S-p">Every single project is a challenge that we accept eagerly. Let’s
+                                        implement
+                                        innovative ideas together!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Happy-Customers">
+            <div class="title">
+                <div class=" Awards flex  align-center justify-center">
+                    <img class="A-img" src="./media/2.s.svg" alt="1">
+                    <h4 class="A-h4">Happy Customer</h4>
+                </div>
+            </div>
+            <div class="container">
+                <div class="Happy-H">
+                    <div class="happy-card flex justify-between">
+                        <div class="happy_c">
+                            <img class="Happy" src="./media/IMAGE1.png" alt="1">
+
+                        </div>
+                        <div class="happy_c">
+                            <img class="Happy" src="./media/IMAGE2.png" alt="2">
+
+                        </div>
+                        <div class="happy_c">
+                            <img class="Happy" src="./media/IMAGE3.jpg" alt="3">
+
+                        </div>
+                        <div class="happy_c">
+                            <img class="Happy" src="./media/IMAGE4.png" alt="4">
+
+                        </div>
+                    </div>
+                    <div class="happy-card flex justify-between">
+                        <div class="happy_c">
+                            <img class="Happy" src="./media/5.s.png" alt="5">
+
+                        </div>
+                        <div class="happy_c">
+                            <img class="Happy" src="./media/6.s.png" alt="6">
+
+                        </div>
+                        <div class="happy_c">
+                            <img class="Happy" src="./media/7.s.png" alt="7">
+
+                        </div>
+                        <div class="happy_c">
+                            <img class="Happy" src="./media/8.s.png" alt="8">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Articles">
+            <div class="title">
+                <div class=" Awards flex  align-center justify-center">
+                    <img class="A-img" src="./media/2.s.svg" alt="1">
+                    <h4 class="A-h4">Articles</h4>
+                    <p>REGONITIONS & ACCOIMPLISHMENTS</p>
+                </div>
+            </div>
+            <div class="flex big-star">
+                <img src="./media/Vector.svg" alt="big=star">
+            </div>
+            <div class="container">
+                <div class=" article-content flex align-center justify-between">
+                    <div class="article_card ">
+                        <h5 class="article-h5">DESIGN / April 28, 2022</h5>
+                        <h4 class="article-h4">Why I moved from Wordpress to Webflow</h4>
+                    </div>
+                    <div class="article_card ">
+                        <p class="article-p_left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
+                            tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+                <div class=" article-content flex align-center justify-between">
+                    <div class="article_card ">
+                        <h5 class="article-h5">DESIGN / April 26, 2022</h5>
+                        <h4 class="article-h4">What did i learn from doing 50+ design sprints</h4>
+                    </div>
+                    <div class="article_card ">
+                        <p class="article-p_left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
+                            tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+                <div class=" article-content flex align-center justify-between">
+                    <div class="article_card ">
+                        <h5 class="article-h5">DESIGN / April 28, 2022</h5>
+                        <h4 class="article-h4">Fostering professional growth in your company</h4>
+                    </div>
+                    <div class="article_card ">
+                        <p class="article-p_left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
+                            tempor incididunt ut labore et dolore.</p>
+
+                    </div>
+                </div>
+                <div class=" article-btn flex align-center justify-center">
+                    <button class="article-btn btn btn-black  ">Browse Articles</button>
+                </div>
+            </div>
         </section>
     </main>
 
+    <footer>
+
+        <div class="footer-up ">
+            <div class="container">
+                <div class="footer-content flex  justify-between">
+                    <div class="foter_content ">
+                        <h5 class="footer-h5">Subscribe to our newsletter</h5>
+                    </div>
+                    <form>
+                        <div class="foter_content ">
+                            <div class="input_area flex align-center gap-32">
+
+
+                                <p>
+                                    <label>
+                                        <input class="footer-email " type="email" name="email"
+                                            placeholder="Email Addres">
+                                    </label>
+                                </p>
+                                <button class="footer-btn  btn btn-black">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer-down bg-black">
+            <div class="container">
+                <div class="footer-down-content flex  align-center  justify-between">
+                    <div class="foter_content-left ">
+                        <div class="input_area ">
+                            <img src=" ./media/footer-down.svg" alt="white">
+                        </div>
+                        <p class="footer-down-p">© Made by Portfolio Template & powered by Flowbase</p>
+                    </div>
+                    <div class="foter_content-right ">
+                        <div class="input_area flex gap-44">
+                            <p class="footer-down-p">Style Guide</p>
+                            <p class="footer-down-p">Licence</p>
+                            <p class="footer-down-p">Changelogg</p>
+                        </div>
+                        <div class="footer-nav flex gap-16 ">
+                            <img class="footer-down-img" src="./media/in.svg" alt="in">
+                            <img class="footer-down-img" src="./media/twitter.svg" alt="tw">
+                            <img class="footer-down-img" src="./media/inst.svg" alt="inst">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
