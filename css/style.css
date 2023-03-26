@@ -16,6 +16,9 @@
 .flex {
   display: flex;
 }
+.flex-wrap {
+  flex-wrap: wrap;
+}
 .align-center {
   align-items: center;
 }
@@ -340,9 +343,10 @@
 }
 
 .S-card {
-  height: 196px;
-  width: 510px;
   border: 2px solid #161513;
+  margin-bottom: 40px;
+  padding: 30px;
+  width: calc(50% - 20px);
 }
 .S-h2 {
   font-family: "BaiJamjuree";
@@ -360,21 +364,14 @@
   letter-spacing: 0em;
   text-align: left;
 }
-.S-card .S-text {
-  padding-top: 34px;
-  max-width: 427px;
-  padding-left: 47px;
-}
-.S-card {
-  margin-bottom: 40px;
-}
+
 .p-card > * {
   width: 50%;
 }
 .p-card + .p-card {
   margin-top: 96px;
 }
-.Portfolio-card :nth-child(even) {
+.Portfolio-card > :nth-child(even) {
   flex-direction: row-reverse;
 }
 
@@ -408,19 +405,14 @@
 }
 .happy_c {
   border: 1px solid #131416;
-
   margin-bottom: 32px;
-  align-items: baseline;
-  display: flex;
-  justify-content: flex-start;
   width: 23%;
   min-height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
-.Happy {
-  margin-left: 75px;
-  margin-top: 41px;
-}
 .Happy-H {
   margin-top: 62px;
 }
