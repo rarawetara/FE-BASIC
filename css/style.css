@@ -1,0 +1,221 @@
+@import url(./basic.css);
+/*////////////////////////////////////////////////////////////////////////////////////COLOR//////////////////////////////////////////////////////////////////////////////////*/
+.c-regular {
+  color: var(--color-regular);
+}
+.c-alt {
+  color: var(--color-alt);
+}
+.c-soft {
+  color: var(--color-soft);
+}
+.c-accent {
+  color: var(--color-accent);
+}
+.c-blue-regular {
+  color: var(--color-blue-regular);
+}
+.c-blue-hover {
+  color: var(--color-blue-hover);
+}
+.bg-gray-bg {
+  background-color: var(--color-gray-bg);
+}
+.bg-gray-bg-alt {
+  background-color: var(--color-gray-bg-alt);
+}
+.c--gray-text {
+  color: var(--color-gray-text);
+}
+.c-gray-separator {
+  color: var(--color-gray-separator);
+}
+.c-gradient-regular {
+  color: var(--color-gradient-regular);
+}
+.c-gradient-soft {
+  color: var(--color-gradient-soft);
+}
+.c-gradient-red {
+  color: var(--color-gradient-red);
+}
+.c-gradient-supersoft {
+  color: var(--color-gradient-supersoft);
+}
+.c-gradient-redtext {
+  color: var(--color-gradient-redtext);
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////FLEX_ALIGN_JUSTIFY//////////////////////////////////////////////////////////////////////////////////*/
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-end {
+  justify-content: end;
+}
+/*////////////////////////////////////////////////////////////////////////////////////GAP//////////////////////////////////////////////////////////////////////////////////*/
+.gap-14 {
+  gap: 14px;
+  display: flex;
+}
+.gap-16 {
+  gap: 16px;
+  display: flex;
+}
+.gap-18 {
+  gap: 18px;
+  display: flex;
+}
+.gap-24 {
+  gap: 24px;
+  display: flex;
+}
+.gap-32 {
+  gap: 32px;
+  display: flex;
+}
+.gap-44 {
+  gap: 44px;
+}
+.gap-40 {
+  gap: 40px;
+}
+.gap-94 {
+  gap: 94px;
+  display: flex;
+}
+/*/ ///////////////////////////////////////////////////////////////////////////////////BTN//////////////////////////////////////////////////////////////////////////////////*/
+.btn {
+  display: inline-block;
+  text-align: center;
+  width: 126px;
+  height: 42px;
+  letter-spacing: 0.05em;
+  border: 1px solid #161513;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  border-radius: 0px;
+  color: black;
+}
+.btn-default {
+  border-color: var(--color-black);
+  color: var(--text-color);
+}
+.btn.btn-black {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.btn.btn-red {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  border: none;
+}
+/*/ ///////////////////////////////////////////////////////////////////////////////////FONTS//////////////////////////////////////////////////////////////////////////////////*/
+.hero {
+  font-family: "Montserrat";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  color: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+}
+.h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+}
+.h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.h3caps {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 1px;
+}
+.h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.un-list {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.h3,
+.h2,
+.h3caps,
+.h4 {
+  color: var(--color-blue-regular);
+  font-family: "Montserrat";
+}
+.ol-list,
+.un-list {
+  font-family: "Montserrat";
+  list-style-type: color var(--color-accent);
+  color: #000000;
+}
+.link,
+.link-hover {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.link {
+  color: var(--color-blue-regular);
+}
+.link-hover {
+  color: var(--color-blue-hover);
+}
+
+/*/ ///////////////////////////////////////////////////////////////////////////////////HEADER//////////////////////////////////////////////////////////////////////////////////*/
+
+.header-content {
+  padding-top: 55px;
+}
+.header-tel {
+  font-weight: 700;
+}
+.right-side-header,
+.nav-header-light {
+  color: var(--color-gray-text);
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 1px;
+}
+.logo-team {
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  color: var(--color-regular);
+}
+.header-menu {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--color-blue-regular);
+}
