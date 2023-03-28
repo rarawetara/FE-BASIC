@@ -1,0 +1,5 @@
+@media (max-widh: 768px) {
+  .team-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

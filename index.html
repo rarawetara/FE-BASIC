@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hlegal</title>
+    <link rel="stylesheet" href="./font/font.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/basic.css">
-    <link rel="stylesheet" href="./font/font.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
@@ -21,35 +22,109 @@
                     <p class="logo-team">team</p>
                 </div>
                 <div class="right-side-header  gap-18 align-center">
-                    <nav class="nav-header-light gap-14">
-                        <a href="./index.html">УК</a>
-                        <a href="./index.html">РУ</a>
-                        <a href="./index.html">EN</a>
-                    </nav>
+                    <div class="nav-header-light gap-14">
+                        <div class="lang.grup">
+                            <form>
+                                <label>
+                                    <input class="lang-check" type="radio" name="lang" value="uk" id="УК">
+                                    <span>УК</span>
+                                </label>
+                                <label>
+                                    <input class="lang-check" type="radio" name="lang" value="ru" id="РУ">
+                                    <span>РУ</span>
+                                </label>
+                                <label>
+                                    <input class="lang-check" type="radio" name="lang" value="en" id="EN">
+                                    <span>EN</span>
+                                </label>
+                            </form>
+                        </div>
+                    </div>
                     <address><a href="./index.html">Kyiv, Mechnikova str, 14/1 </a></address>
                     <span class="header-tel">0800 211 927</span>
                     <a href="./index.html">
-                        <img src="./media/facebook.svg" alt="facebook">
+                        <img class="facebook" src="./media/facebook.svg" alt="facebook">
                     </a>
                 </div>
             </div>
             <div class="header-menu flex gap-14 justify-end">
-                <a href="./index.html">about us</a>
-                <a href="./index.html">services</a>
-                <a href="./index.html">team</a>
-                <a href="./index.html">publications</a>
-                <a href="./index.html">contact</a>
+                <a class="hover-menu" href="./index.html">about us</a>
+                <a class="hover-menu" href="./index.html">services</a>
+                <a class="hover-menu" href="./index.html">team</a>
+                <a class="hover-menu" href="./index.html">publications</a>
+                <a class="hover-menu" href="./index.html">contact</a>
             </div>
         </div>
     </header>
 
     <main>
-        <section>
-
-
+        <section class="team">
+            <div class="flex align-center justify-center ">
+                <h1 class="hero">
+                    We are used to taking responsibility and always guarantee honest, timely assistance, even in
+                    situations
+                    where most are powerless.
+                </h1>
+            </div>
+            <div class="container">
+                <div class="team-card">
+                    <div class="team-card-content1">
+                        <img src="./media/Team-1.jpg" alt="1">
+                        <h4 class="h4">Alexander Alexandrovsky</h4>
+                        <p class="p-small">Managing partner</p>
+                    </div>
+                    <div class="team-card-content2">
+                        <img src="./media/Team-2.jpg" alt="2">
+                        <h4 class="h4">Евгений Патриков</h4>
+                        <p class="p-small">Equity partner, Attorney-at-law</p>
+                    </div>
+                    <div class="team-card-content3">
+                        <img src="./media/Team-3.jpg" alt="3">
+                        <h4 class="h4">Vladislav Melnik</h4>
+                        <p class="p-small">Associate</p>
+                    </div>
+                    <div class="team-card-content4">
+                        <img src="./media/Team-4.jpg" alt="4">
+                        <h4 class="h4">Sergey Binn</h4>
+                        <p class="p-small">Associate</p>
+                    </div>
+                    <div class="team-card-content5">
+                        <img src="./media/Team-5.jpg" alt="5">
+                        <h4 class="h4">Oksana Kobzar</h4>
+                        <p class="p-small">Equity partner, Attorney-at-law</p>
+                    </div>
+                    <div class="team-card-content6">
+                        <img src="./media/Team-6.jpg" alt="6">
+                        <h4 class="h4">Julia Wolk</h4>
+                        <p class="p-small">Associate, Attorney-at-law</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+    <footer class="team-footer bg-gray-bg ">
+        <div class="container">
+            <div class="team-footer-content flex  align-center flex gap-10 justify-between ">
+                <div class="team-footer-left gap-10 align-center flex">
+                    <address><a class=" map c-regular" href="./index.html">Kyiv, Mechnikova str, 14/1 </a></address>
+                    <img class="dot" src="./media/Dot separator.png" alt="dot">
+                    <a class="hover-menu" href="https://goo.gl/maps/tmEJQaNDQq4MFLT58" target="_blank">on map</a>
+                </div>
 
+
+                <div class="team-footer-right">
+                    <p class="p-small">© 2021 HLEGAL Law company, LLC</p>
+                </div>
+            </div>
+            <div class="flex align-center gap-10">
+                <img src="./media/face-blue.svg" alt="face-blue">
+                <img src="./media/Dot separator.png" alt="dot">
+                <span class="footer-tel ">0800 211 927</span>
+                <img src="./media/Dot separator.png" alt="dot">
+                <a class="footer-mail" href="index.html">contact@forstudy.space</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
