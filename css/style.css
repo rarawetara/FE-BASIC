@@ -50,6 +50,9 @@
 .flex {
   display: flex;
 }
+.grid {
+  display: grid;
+}
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -66,6 +69,9 @@
   justify-content: end;
 }
 /*////////////////////////////////////////////////////////////////////////////////////GAP//////////////////////////////////////////////////////////////////////////////////*/
+.gap-6 {
+  gap: 6px;
+}
 .gap-10 {
   gap: 10px;
 }
@@ -141,8 +147,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  max-width: 60%;
+  max-width: 78%;
   margin-top: 65px;
+  margin-left: 180px;
 }
 .h2 {
   font-size: 30px;
@@ -217,7 +224,7 @@
 .header-tel {
   font-weight: 700;
 }
-.right-side-header,
+.grid-nav,
 .nav-header-light {
   color: var(--color-gray-text);
   font-family: "Montserrat";
@@ -257,6 +264,7 @@
   z-index: -1;
   opacity: 0;
 }
+
 .hover-menu:hover {
   border-bottom: 2px solid;
 }
@@ -264,9 +272,32 @@
   color: var(--color-accent);
   border-bottom: 2px solid;
 }
-.facebook:hover {
-  height: 38px;
-  width: 38px;
+
+.facebook:hover > path {
+  fill: var(--color-accent);
+}
+
+.grid-nav,
+.header-menu {
+  grid-column: 2/4;
+  justify-content: flex-end;
+}
+
+.grid-head {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-logo > span {
+  font-size: 2.25rem;
+}
+
+.logo-block {
+  gap: 4px;
+  grid-row: 1/3;
 }
 /*/ ///////////////////////////////////////////////////////////////////////////////////CARD//////////////////////////////////////////////////////////////////////////////////*/
 .team-card {
@@ -308,4 +339,29 @@
   font-weight: 700;
   line-height: 20px;
   color: var(--color-blue-regular);
+}
+
+.round-face {
+  height: 32px;
+  width: 32px;
+  background-color: #f5f5fa;
+  border-radius: 50px;
+  color: var(--color-blue-regular);
+}
+.grid-footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.rights {
+  color: var(--color-gray-text);
+  line-height: 1.25;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: flex-end;
+}
+.hover-menu:hover {
+  color: var(--color-accent);
 }
