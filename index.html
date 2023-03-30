@@ -15,7 +15,8 @@
 <body>
     <header class="head-light">
         <div class="container">
-            <div class="grid-head ">
+
+            <div class="grid-head">
                 <div class="grid-logo flex align-center">
                     <img src="./media/Logo.svg" alt="logo">
                     <img class="Slash" src="./media/Slash.png" alt="Slash">
@@ -42,7 +43,7 @@
                         xmlns="http://www.w3.org/2000/svg">
                         <circle cx="3" cy="3.5" r="3" fill="#E6E6F0" />
                     </svg>
-                    <address><a href="./index.html">Kyiv, Mechnikova str, 14/1 </a></address>
+                    <address><a class="address" href="./index.html">Kyiv, Mechnikova str, 14/1 </a></address>
                     <svg class="dot" width="6" height="7" viewBox="0 0 6 7" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <circle cx="3" cy="3.5" r="3" fill="#E6E6F0" />
@@ -53,7 +54,7 @@
                         <circle cx="3" cy="3.5" r="3" fill="#E6E6F0" />
                     </svg>
                     <a href="#">
-                        <svg class="facebook" width="24" height="25" viewBox="0 0 24 25" fill="none"
+                        <svg class="facebook-header" width="24" height="25" viewBox="0 0 24 25" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"
@@ -61,14 +62,21 @@
                         </svg>
                     </a>
                 </div>
-                <div class="header-menu flex gap-14 align-center ">
-                    <a class="hover-menu" href="./index.html">about us</a>
-                    <a class="hover-menu" href="./index.html">services</a>
-                    <a class="hover-menu" href="./index.html">team</a>
-                    <a class="hover-menu" href="./index.html">publications</a>
-                    <a class="hover-menu" href="./index.html">contact</a>
-                </div>
+                <div class="wrap">
+                    <input type="checkbox" class="hide-check">
+                    <p class="burger">
+                        <span></span><span></span><span></span><span></span>
+                    </p>
 
+                    <div class="header-menu flex gap-14 align-center ">
+                        <a class="hover-menu" href="./index.html">about us</a>
+                        <a class="hover-menu" href="./index.html">services</a>
+                        <a class="hover-menu" href="./index.html">team</a>
+                        <a class="hover-menu" href="./index.html">publications</a>
+                        <a class="hover-menu" href="./index.html">contact</a>
+                    </div>
+
+                </div>
             </div>
         </div>
     </header>
@@ -86,9 +94,8 @@
             </div>
             <div class="container">
                 <div class="team-card">
-                    <div class="team-card-content1">
-
-                        <img src="./media/Team-1.jpg" alt="1">
+                    <div class="team-card-content">
+                        <img class="team-img-card" src="./media/Team-1.jpg" alt="1">
                         <div class=" team-card-wrap flex justify-between">
                             <h4 class="h4">Alexander Alexandrovsky</h4>
                             <a class="point-bg flex align-center justify-center" href="#">
@@ -101,7 +108,8 @@
                         <p class="p-small">Managing partner</p>
 
                     </div>
-                    <div class="team-card-content2">
+
+                    <div class="team-card-content">
                         <img src="./media/Team-2.jpg" alt="2">
                         <div class=" team-card-wrap flex justify-between">
                             <h4 class="h4">Евгений Патриков</h4>
@@ -116,7 +124,7 @@
 
                     </div>
 
-                    <div class="team-card-content3">
+                    <div class="team-card-content">
                         <img src="./media/Team-3.jpg" alt="3">
                         <div class="team-card-wrap flex justify-between">
                             <h4 class="h4">Vladislav Melnik</h4>
@@ -129,7 +137,7 @@
                         </div>
                         <p class="p-small">Associate</p>
                     </div>
-                    <div class="team-card-content4">
+                    <div class="team-card-content">
                         <img src="./media/Team-4.jpg" alt="4">
                         <div class=" team-card-wrap flex justify-between">
                             <h4 class="h4">Sergey Binn</h4>
@@ -142,7 +150,7 @@
                         </div>
                         <p class="p-small">Associate</p>
                     </div>
-                    <div class="team-card-content5  ">
+                    <div class="team-card-content">
                         <img src="./media/Team-5.jpg" alt="5">
                         <div class=" team-card-wrap flex justify-between">
 
@@ -158,7 +166,7 @@
 
 
                     </div>
-                    <div class="team-card-content6">
+                    <div class="team-card-content">
                         <img src="./media/Team-6.jpg" alt="6">
                         <div class="team-card-wrap flex justify-between">
                             <h4 class="h4">Julia Wolk</h4>
@@ -182,7 +190,8 @@
 
                 <div class="footer-geo flex align-center gap-6">
                     <address><a class=" map c-regular" href="./index.html">Kyiv, Mechnikova str, 14/1 </a></address>
-                    <svg width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="dot" width="6" height="7" viewBox="0 0 6 7" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <circle cx="3" cy="3.5" r="3" fill="#B3B3BA" />
                     </svg>
                     <a class="hover-menu" href="https://goo.gl/maps/tmEJQaNDQq4MFLT58" target="_blank">on map</a>
@@ -197,11 +206,13 @@
                                 fill="#24A3FF" />
                         </svg>
                     </a>
-                    <svg width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="dot" width="6" height="7" viewBox="0 0 6 7" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <circle cx="3" cy="3.5" r="3" fill="#B3B3BA" />
                     </svg>
                     <a class="footer-tel" href="tel:+380800211927">0800 211 927</a>
-                    <svg width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="dot" width="6" height="7" viewBox="0 0 6 7" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <circle cx="3" cy="3.5" r="3" fill="#B3B3BA" />
                     </svg>
                     <a class="footer-mail" href="mailto:contact@forstudy.space">contact@forstudy.space</a>

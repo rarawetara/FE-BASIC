@@ -1,7 +1,7 @@
 :root {
   --container-width: 1440px;
   --container-small-width: 1080px;
-  --basic-space: 1rem;
+  --basic-space: 60px;
 
   --color-regular: #323264;
   --color-alt: #46466e;
@@ -73,7 +73,7 @@ body {
   padding-right: var(--basic-space);
 }
 .container-small {
-  max-width: calc(var(--container-width) + var(--basic-space) * 2);
+  max-width: calc(var(--container-small-width) + var(--basic-space) * 2);
   margin-left: auto;
   margin-right: auto;
   padding-left: var(--basic-space);
