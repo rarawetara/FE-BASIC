@@ -393,40 +393,27 @@
 }
 /*/ ///////////////////////////////////////////////////////////////////////////////////BURGER//////////////////////////////////////////////////////////////////////////////////*/
 
-.head-light .wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-}
-.burger {
-  position: absolute;
-  height: 30px;
-  width: 30px;
-  right: 25px;
-  width: 30px;
-  height: 30px;
-  z-index: 3;
-}
 .hide-check {
   position: absolute;
-  right: 28px;
   width: 30px;
+  top: 60px;
+  right: 10px;
   height: 30px;
   z-index: 5;
   opacity: 0;
 }
 
-.burger span {
-  display: block;
-  width: 26px;
-  height: 2px;
-  background-color: #000000;
+.burger {
   position: absolute;
-  left: 2px;
-  transition: all 0.3 linear;
-  opacity: 1;
+  height: 30px;
+  width: 30px;
+  top: 60px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
 }
+
 .burger span:first-child {
   top: 4px;
 }
@@ -452,4 +439,12 @@
 .hide-check:checked + .burger span:last-child {
   top: 34px;
   opacity: 0;
+}
+.hide-check:checked ~ .header-menu {
+  transform: translateY(0);
+  margin: 8px;
+  border-radius: 12px 12px 0px 0px;
+}
+.hide-check:checked ~ .burger span {
+  background-color: rgba(236, 111, 93, 1);
 }
