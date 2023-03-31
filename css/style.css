@@ -220,6 +220,7 @@
 }
 .header-tel {
   font-weight: 700;
+  color: var(--color-gray-text);
 }
 .grid-nav,
 .nav-header-light {

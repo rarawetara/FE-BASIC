@@ -22,9 +22,6 @@
 }
 
 @media (max-width: 950px) {
-  :root {
-    --container-width: 648px;
-  }
   .team-card {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -76,7 +73,7 @@
 
 @media (max-width: 590px) {
   :root {
-    --container-small-width: 315px;
+    --container-small-width: 538px;
     --basic-space: 30px;
   }
 
@@ -118,8 +115,8 @@
     margin-top: 30px;
   }
   .team-card img {
-    aspect-ratio: 1/1;
     object-fit: cover;
+    width: 100%;
   }
   .header-light .container {
     padding-left: 0.5rem;
