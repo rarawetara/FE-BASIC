@@ -256,7 +256,10 @@
   background-color: var(--color-accent);
   color: #ffffff;
   border-radius: 3px;
+  border-radius: 8px;
+  padding: 5px 7px 5px 7px;
 }
+
 .lang-check {
   position: absolute;
   z-index: -1;

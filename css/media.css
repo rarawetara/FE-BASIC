@@ -1,5 +1,6 @@
 @media (max-width: 2000px) {
   :root {
+    --container-width: 1600px;
     --container-small-width: 1360px;
   }
   .team-card img {
@@ -95,7 +96,7 @@
   .nav-up {
     background-color: var(--color-gray-bg);
     height: 45px;
-    width: 375px;
+    width: 590px;
   }
   .grid-nav {
     justify-content: space-between;
