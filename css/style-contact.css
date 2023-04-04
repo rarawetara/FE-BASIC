@@ -1,0 +1,122 @@
+.contact-content {
+  font-family: "Montserrat";
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.content-left {
+  flex-direction: column;
+  margin-top: 44px;
+}
+.gray-line {
+  width: 650px;
+  height: 4px;
+  background: #e6e6f0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.map-left {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.mail-left:hover {
+  color: var(--color-accent);
+}
+.tel-left {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 15px;
+  color: #46466e;
+}
+.face-page {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1px;
+  max-width: 105px;
+}
+.face-page:hover {
+  color: var(--color-accent);
+}
+.form-contact {
+  height: 603px;
+  width: 650px;
+  left: 990px;
+  top: 0px;
+  border-radius: 12px;
+  padding: 30px;
+  background-color: var(--color-gray-bg);
+  display: block;
+  margin-top: 30px;
+}
+.hero-contact {
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 30px;
+}
+.contact-input {
+  height: 56px;
+  width: 590px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--color-gray-text);
+}
+textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--color-gray-text);
+}
+.h3caps {
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.contact-buttom {
+  color: #ffffff;
+  background-color: var(--color-blue-regular);
+  height: 56px;
+  width: 590px;
+  left: 30px;
+  top: 517px;
+  border-radius: 12px;
+  padding: 18px 30px 18px 30px;
+}
+.contact-buttom:active {
+  background-color: var(--color-blue-hover);
+}
+.contact-buttom:hover {
+  background-color: #0085ff;
+}
+input {
+  border: none;
+  outline: none;
+}
+.contact-input:focus {
+  border: 2px solid var(--color-blue-regular);
+}
+.contact-input:invalid {
+  border: 2px solid var(--color-accent);
+}
+
+textarea {
+  height: 130px;
+  width: 590px;
+  left: 0px;
+  top: 71px;
+  border-radius: 8px;
+  padding: 15px;
+  outline: none;
+  border: none;
+}

@@ -3,6 +3,9 @@
     --container-width: 1600px;
     --container-small-width: 1360px;
   }
+  .team-card img {
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -14,9 +17,15 @@
   :root {
     --container-small-width: 664px;
   }
+  .team-card img {
+    height: 400px;
+  }
 }
 
 @media (max-width: 950px) {
+  .team-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .grid-nav {
     grid-column: 1/3;
     justify-content: flex-start;
@@ -58,6 +67,9 @@
     display: flex;
     justify-content: center;
   }
+  .team-card img {
+    height: 400px;
+  }
 }
 
 @media (max-width: 590px) {
@@ -98,6 +110,15 @@
     padding-top: 15px;
   }
 
+  .team-card {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .team-card img {
+    object-fit: cover;
+    width: 100%;
+  }
   .header-light .container {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -106,6 +127,13 @@
   .address,
   .facebook-header {
     display: none;
+  }
+  .team-card img {
+    height: 311px;
+  }
+  .hero {
+    font-size: 30px;
+    line-height: 37px;
   }
 
   .footer-contact {

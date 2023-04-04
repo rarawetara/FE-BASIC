@@ -1,0 +1,35 @@
+/*/ ///////////////////////////////////////////////////////////////////////////////////CARD//////////////////////////////////////////////////////////////////////////////////*/
+.team-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.team-card img {
+  border-radius: 12px;
+}
+.point-bg {
+  width: 32px;
+  height: 32px;
+  background-color: var(--color-gray-bg);
+  border-radius: 70px;
+  align-self: flex-end;
+}
+.point {
+  height: 17px;
+  width: 14px;
+}
+.team-card-content :hover .h4 {
+  color: var(--color-accent);
+  transition: all 0.2s linear;
+}
+
+.team-card-content :hover .point > path {
+  stroke: var(--color-accent);
+  transition: all 0.2s linear;
+}
+
+.team-card-wrap {
+  padding-top: 15px;
+}
