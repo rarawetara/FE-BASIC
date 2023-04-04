@@ -1,6 +1,6 @@
 @media (max-width: 2000px) {
   :root {
-    --container-width: 1600px;
+    --container-width: 1690px;
     --container-small-width: 1360px;
   }
 }
@@ -9,14 +9,20 @@
   :root {
     --container-small-width: 1080px;
   }
+  .hero-contact {
+    font-size: 33px;
+  }
 }
 @media (max-width: 1024px) {
   :root {
-    --container-small-width: 664px;
+    --container-small-width: 898px;
   }
 }
 
 @media (max-width: 950px) {
+  .contact-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .grid-nav {
     grid-column: 1/3;
     justify-content: flex-start;
@@ -64,6 +70,9 @@
   :root {
     --container-small-width: 538px;
     --basic-space: 30px;
+  }
+  .form-contact {
+    margin-top: 15px;
   }
 
   .grid-head {

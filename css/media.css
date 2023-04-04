@@ -10,11 +10,6 @@
     --container-small-width: 1080px;
   }
 }
-@media (max-width: 1024px) {
-  :root {
-    --container-small-width: 664px;
-  }
-}
 
 @media (max-width: 950px) {
   .grid-nav {
