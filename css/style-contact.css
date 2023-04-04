@@ -38,15 +38,13 @@
   line-height: 16px;
   letter-spacing: 1px;
   max-width: 105px;
+  display: inline-block;
+  margin-left: 10px;
 }
 .face-page:hover {
   color: var(--color-accent);
 }
 .form-contact {
-  height: 603px;
-  width: 650px;
-  left: 990px;
-  top: 0px;
   border-radius: 12px;
   padding: 30px;
   background-color: var(--color-gray-bg);
@@ -92,6 +90,10 @@ textarea::placeholder {
   top: 517px;
   border-radius: 12px;
   padding: 18px 30px 18px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
 }
 .contact-buttom:active {
   background-color: var(--color-blue-hover);
@@ -119,4 +121,5 @@ textarea {
   padding: 15px;
   outline: none;
   border: none;
+  resize: none;
 }

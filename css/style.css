@@ -225,7 +225,10 @@
   line-height: 20px;
 }
 .header-tel {
+  font-size: 16px;
   font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
   color: var(--color-gray-text);
 }
 .grid-nav,
@@ -325,6 +328,9 @@
 .dot {
   height: 6px;
   width: 6px;
+}
+.footer-geo {
+  margin-bottom: 21px;
 }
 .team-footer {
   margin-top: 60px;

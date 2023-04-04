@@ -2,6 +2,7 @@
   :root {
     --container-width: 1600px;
     --container-small-width: 1360px;
+    --basic-space: 60px;
   }
   .team-card img {
     object-fit: cover;
@@ -10,7 +11,9 @@
 
 @media (max-width: 1440px) {
   :root {
-    --container-small-width: 1080px;
+    --container-width: 1600px;
+    --container-small-width: 1360px;
+    --basic-space: 60px;
   }
 }
 @media (max-width: 1024px) {
