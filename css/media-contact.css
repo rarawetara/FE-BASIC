@@ -105,6 +105,15 @@
   .grid-logo {
     padding-bottom: 0px;
     padding-top: 15px;
+    height: 32px;
+    width: 69.33333587646484px;
+  }
+  .Slash {
+    height: 26px;
+    width: 11.617021560668945px;
+  }
+  .logo-team {
+    font-size: 20px;
   }
 
   .header-light .container {
@@ -156,6 +165,10 @@
   }
   .burger {
     display: flex;
+    top: 66px;
+  }
+  .hide-check {
+    top: 66px;
   }
   .hover-menu {
     height: 43px;
