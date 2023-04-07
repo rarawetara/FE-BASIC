@@ -1,0 +1,116 @@
+.publication-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+.pub-card {
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.pub-pic {
+  border-radius: 8px 8px 0px 0px;
+}
+.pub-pic,
+.pub-h4,
+.pub-small-p,
+.pub-hr {
+  margin-bottom: 15px;
+}
+.pub-h4 {
+  color: var(--color-blue-regular);
+}
+.pub-small-p {
+  color: var(--color-gray-text);
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.pub-hr {
+  height: 4px;
+  background-color: var(--color-gray-separator);
+  border: none;
+}
+.pub-p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+.pub-card-text {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.full {
+  margin-top: 30px;
+}
+.pub-pic {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+.pub-form {
+  background: #e6e6f0;
+  border-radius: 12px;
+  height: 42px;
+  display: flex;
+  justify-content: space-around;
+}
+.pub-card-nav {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.card-slide {
+  background-color: #e6e6f0;
+  border-radius: 12px;
+  margin: 8px;
+}
+.card-nav {
+  appearance: none;
+}
+.card-span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 8px 30px 10px 30px;
+}
+
+.card-span:hover {
+  border-radius: 10px;
+  padding: 8px 30px 12px;
+  background-color: #ffffff;
+}
+.pub-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.pub-button-text {
+  color: #ffffff;
+  background-color: var(--color-blue-regular);
+  border-radius: 12px;
+  padding: 18px 30px 18px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  border: none;
+}
+.footer-public {
+  padding-top: 30px;
+}
+.pub-hr-foot {
+  margin-top: 60px;
+  height: 2px;
+  background-color: var(--color-gray-separator);
+  border: none;
+}
