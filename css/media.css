@@ -174,8 +174,8 @@
   }
   .burger span {
     display: block;
-    width: 26px;
-    height: 2px;
+    width: 23px;
+    height: 3px;
     background-color: #000000;
     position: absolute;
     left: 2px;

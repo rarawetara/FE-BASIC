@@ -5,7 +5,6 @@
 }
 .content-left {
   flex-direction: column;
-  margin-top: 40px;
 }
 .gray-line {
   height: 4px;
@@ -17,6 +16,11 @@
 }
 
 .map-left {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.mail-left {
   font-size: 21px;
   font-weight: 400;
   line-height: 30px;
