@@ -17,6 +17,9 @@
 .pub-hr {
   margin-bottom: 15px;
 }
+.pub-h4:hover {
+  color: var(--color-accent);
+}
 .pub-h4 {
   color: var(--color-blue-regular);
 }
@@ -57,10 +60,9 @@
 .pub-form {
   background: #e6e6f0;
   border-radius: 12px;
-  height: 42px;
-  display: flex;
-  justify-content: space-around;
+  padding: 10px 0px 12px 1px;
 }
+
 .pub-card-nav {
   display: flex;
   align-content: center;
@@ -70,7 +72,7 @@
 .card-slide {
   background-color: #e6e6f0;
   border-radius: 12px;
-  margin: 8px;
+  padding: 8px 30px 10px 30px;
 }
 .card-nav {
   appearance: none;
@@ -81,12 +83,15 @@
   line-height: 20px;
   letter-spacing: 0em;
   text-align: center;
-  padding: 8px 30px 10px 30px;
 }
-
-.card-span:hover {
+.card-slide:hover {
   border-radius: 10px;
-  padding: 8px 30px 12px;
+
+  background-color: #f5f5fa;
+}
+.card-slide:active {
+  border-radius: 10px;
+
   background-color: #ffffff;
 }
 .pub-button {
@@ -104,6 +109,8 @@
   line-height: 20px;
   letter-spacing: 0em;
   border: none;
+  box-shadow: 0px 0px 20px 0px #24a3ff80;
+  box-shadow: 0px 0px 20px 0px #24a3ff80;
 }
 .footer-public {
   padding-top: 30px;

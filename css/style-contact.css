@@ -53,7 +53,6 @@
   padding: 30px;
   background-color: var(--color-gray-bg);
   display: block;
-  margin-top: 30px;
 }
 .hero-contact {
   font-size: 30px;
@@ -93,6 +92,7 @@ textarea::placeholder {
   line-height: 20px;
   letter-spacing: 0em;
   border: none;
+  box-shadow: 0px 0px 20px 0px #24a3ff80;
 }
 .contact-buttom:active {
   background-color: var(--color-blue-hover);
