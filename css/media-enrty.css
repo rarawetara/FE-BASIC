@@ -16,13 +16,19 @@
   }
 }
 @media (max-width: 1024px) {
-  :root {
-    --container-small-width: 664px;
+  .info-kobzae {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding-top: 171px;
+  }
+  .kobzar-img {
+    width: 300px;
+    height: 375px;
   }
   .kobzar-links {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 10px;
     margin-top: 15px;
     margin-bottom: 31px;
     white-space: nowrap;
@@ -82,11 +88,19 @@
     display: flex;
     justify-content: center;
   }
-  .team-card img {
-    height: 400px;
+
+  .info-kobzae {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    padding-top: 0px;
+  }
+  .kobzar {
+    gap: 30px;
+  }
+  .wrap-kobzar {
+    margin-top: 80px;
   }
 }
-
 @media (max-width: 590px) {
   :root {
     --container-small-width: 538px;
@@ -261,5 +275,26 @@
     left: 2px;
     transition: 0.3s all linear;
     opacity: 1;
+  }
+
+  .wrap-kobzar {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .info-kobzae {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    padding-top: 164px;
+  }
+  .kobzar {
+    gap: 30px;
+  }
+  .wrap-kobzar {
+    margin-top: 0px;
+  }
+  .kobzar-img {
+    height: 315;
+    width: 100%;
   }
 }
