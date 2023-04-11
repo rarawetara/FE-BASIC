@@ -15,7 +15,7 @@
     --basic-space: 60px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1369px) {
   .info-kobzae {
     grid-column: 2/3;
     grid-row: 1/3;
@@ -101,7 +101,7 @@
     margin-top: 80px;
   }
 }
-@media (max-width: 590px) {
+@media (max-width: 680px) {
   :root {
     --container-small-width: 538px;
     --basic-space: 30px;
@@ -288,8 +288,10 @@
     padding-top: 164px;
   }
   .kobzar {
-    gap: 30px;
+    row-gap: 30px;
+    column-gap: 0;
   }
+
   .wrap-kobzar {
     margin-top: 0px;
   }

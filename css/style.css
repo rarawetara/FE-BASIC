@@ -242,7 +242,7 @@
 }
 .logo-team {
   font-family: "Montserrat";
-  font-size: 36px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 44px;
   color: var(--color-regular);
@@ -250,8 +250,8 @@
 .Slash {
   margin-left: 4px;
   margin-right: 4px;
-  height: 46.99999786316812px;
-  width: 21.000000096858116px;
+  height: 26px;
+  width: 12.6px;
 }
 .header-menu,
 .hover-menu {
