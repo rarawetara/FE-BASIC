@@ -334,7 +334,9 @@
   height: 6px;
   width: 6px;
 }
-
+.footer-geo {
+  margin-bottom: 21px;
+}
 .team-footer {
   padding-top: 30px;
   padding-bottom: 30px;
