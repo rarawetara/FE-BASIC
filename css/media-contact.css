@@ -3,9 +3,6 @@
     --container-width: 1690px;
     --container-small-width: 1360px;
   }
-  .team-footer {
-    padding-top: 30px;
-  }
 }
 
 @media (max-width: 1440px) {
@@ -106,7 +103,7 @@
   }
   .grid-logo {
     padding-bottom: 0px;
-    width: 50%;
+    width: 70px;
   }
   .Slash {
     height: 26px;
@@ -215,6 +212,7 @@
     padding-top: 64px;
   }
   .team-footer {
+    margin-top: 30px;
     margin-top: 30px;
   }
 }
