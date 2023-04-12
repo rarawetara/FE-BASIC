@@ -90,9 +90,12 @@
   background-color: var(--color-gray-separator);
   border: none;
 }
+.li-div {
+  padding-left: 30px;
+}
+
 .number-li {
   list-style-type: decimal;
-  list-style-position: inside;
   color: azure;
   margin-left: 10px;
   color: #f0145a;
