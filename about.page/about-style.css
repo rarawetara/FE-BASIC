@@ -1,0 +1,46 @@
+.main-up {
+  display: grid;
+  gap: 70px;
+}
+.up {
+  grid-row: 1/2;
+}
+.main-down {
+  margin-top: 60px;
+  display: grid;
+  gap: 60px;
+}
+.down {
+  grid-row: 1/2;
+}
+.hero-about {
+  font-family: "Montserrat";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.left {
+  display: flex;
+  gap: 13px;
+  margin-bottom: 10px;
+}
+.p-blue {
+  max-width: 354px;
+  color: #323264;
+  margin-bottom: 40px;
+}
+
+.p-pub {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.border {
+  border-right: 1px solid;
+  padding-right: 30px;
+  border-color: var(--color-gray-separator);
+}
