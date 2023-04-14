@@ -156,7 +156,6 @@
     display: flex;
     justify-content: center;
     background-color: var(--color-gray-bg);
-    margin-bottom: -15px;
   }
   .header-menu {
     display: flex;
