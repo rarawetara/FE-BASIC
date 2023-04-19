@@ -1,7 +1,8 @@
 .main-up {
   display: grid;
-  gap: 70px;
-  grid-template-columns: 1000px auto;
+  gap: 30px;
+  grid-template-columns: auto 390px;
+  align-items: start;
 }
 .up {
   grid-row: 1/2;
@@ -9,12 +10,15 @@
 .main-down {
   margin-top: 60px;
   display: grid;
-  gap: 60px;
-  grid-template-columns: 1000px auto;
+  gap: 30px;
+  grid-template-columns: auto 390px;
 }
 
 .down {
   grid-row: 1/2;
+}
+.pd-lft {
+  padding-left: 30px;
 }
 .hero-about {
   font-family: "Montserrat";
@@ -34,18 +38,21 @@
 .p-blue {
   max-width: 354px;
   color: #323264;
-  margin-bottom: 40px;
 }
 
 .p-pub {
   line-height: 30px;
   margin-bottom: 40px;
+  line-height: 30px;
+  font-size: 19px;
+  font-weight: 400;
 }
 
 .border {
-  border-right: 1px solid;
-  padding-right: 30px;
+  border-left: 4px solid;
+  padding-left: 30px;
   border-color: var(--color-gray-separator);
+  height: 322px;
 }
 
 .margin {
@@ -89,4 +96,40 @@
 .slick-current,
 .slick-active {
   width: 400px;
+}
+.img-team {
+  display: block;
+}
+.text-team {
+  position: absolute;
+  left: calc(50% - 478px / 2);
+  font-size: 96px;
+  line-height: 117px;
+  text-align: center;
+  letter-spacing: 63px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.8;
+  text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+  font-weight: 700;
+}
+.slick-initialized .slick-slide {
+  margin-bottom: 30px;
+}
+.slider-text {
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #323264;
+}
+.container-small {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.my-slider {
+  max-width: calc(100vw - var(--basic-space) * 2 - 20px);
 }

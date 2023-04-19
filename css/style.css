@@ -246,6 +246,7 @@
   font-weight: 400;
   line-height: 44px;
   color: var(--color-regular);
+  white-space: nowrap;
 }
 .Slash {
   margin-left: 4px;
@@ -284,6 +285,7 @@
 .hover-menu:active {
   color: var(--color-accent);
   border-bottom: 2px solid;
+  border-bottom: var(--color-accent);
 }
 .lang-check {
   position: absolute;
