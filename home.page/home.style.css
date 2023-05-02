@@ -1,0 +1,66 @@
+.bg-graidient {
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+  position: relative;
+  color: white;
+}
+.bg-graidient::before,
+.bg-graidient::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 20px;
+  border-radius: 0px 0px 12px 12px;
+}
+.bg-graidient::before {
+  top: 100%;
+  left: 20px;
+  width: calc(100% - 40px);
+  transform: translateY(-50%);
+  background: #cacadb;
+  z-index: -1;
+}
+.bg-graidient::after {
+  top: 100%;
+  left: 40px;
+  width: calc(100% - 80px);
+  background: #e7e7f2;
+  z-index: -1;
+}
+.first-section {
+  min-height: 100vh;
+  background: url(../media/Symbol.png) no-repeat center/contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body.gradient .head-dark {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.py-rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.tab-pane {
+  display: none;
+}
+.tab-pane:active {
+  display: block;
+}
+.jc-c {
+  display: flex;
+  justify-content: center;
+}
+
+.tabs-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
