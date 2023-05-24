@@ -1,3 +1,8 @@
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: transparent;
+}
 .bg-graidient {
   background: linear-gradient(
     228.57deg,
@@ -63,4 +68,116 @@ body.gradient .head-dark {
 .tabs-section {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.nav-link {
+  color: #b3b3ba;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--color-accent);
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link :active {
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-color: transparent;
+}
+.serv-sec {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.img-serv {
+  padding-bottom: 30px;
+}
+.h4-serv {
+  padding-bottom: 15px;
+  color: #24a3ff;
+}
+.trust-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.border {
+  border-color: var(--color-gray-separator);
+  height: 322px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.tab-h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.tab-p {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.slider-team {
+  position: relative;
+  background: #f5f5fa;
+}
+.slick-prev,
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slick-prev {
+  left: 0;
+}
+
+.slick-arrow {
+  right: 0;
+}
+.slick-dots li button::before {
+  content: "";
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background: #24a3ff;
+  opacity: 0.2;
+}
+.slick-slide img {
+  background: #ffffff;
+  border-radius: 12px;
+
+  text-align: center;
+  width: 400px;
+  object-fit: contain;
+}
+.slick-initialized .slick-slide {
+  display: flex;
+}
+.a-slider {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #24a3ff;
+}
+.d {
+  display: flex;
 }

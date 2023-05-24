@@ -32,4 +32,11 @@ $(document).ready(function(){
       ],
     });
   });
+
+
+    $('.slider-team').slick({
+      dots: true,
+    });
+
+      
   
